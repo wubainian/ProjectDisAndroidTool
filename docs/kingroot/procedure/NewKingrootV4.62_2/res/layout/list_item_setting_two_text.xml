@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/list_item_single_line_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <TextView android:textSize="@dimen/setting_list_item_common_text_size" android:textColor="@color/text_primary_color" android:gravity="center_vertical" android:id="@id/left_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" />
+        <TextView android:textSize="@dimen/setting_list_item_common_secondary_text_size" android:textColor="@color/text_secondary_color" android:gravity="center_vertical" android:id="@id/left_textView_descr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_title" />
+    </LinearLayout>
+    <ImageView android:id="@id/new_tag" android:visibility="gone" android:layout_width="@dimen/new_tag_width" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:src="@drawable/icon_new" android:scaleType="centerInside" android:layout_toRightOf="@id/header" android:contentDescription="@string/attribute_content_description_image" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+        <ImageView android:id="@id/right_icon" android:paddingRight="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/attribute_content_description_image" />
+        <TextView android:textSize="@dimen/setting_list_item_common_text_size" android:textColor="@color/list_item_common_right_text" android:gravity="left" android:id="@id/right_textView" android:layout_width="110.0dip" android:layout_height="wrap_content" android:text="@string/setting_title" />
+        <ImageView android:id="@id/expand_icon" android:background="@drawable/arrow_right" android:layout_width="@dimen/setting_list_item_right_arrow_width" android:layout_height="@dimen/setting_list_item_right_arrow_height" android:layout_marginLeft="10.0dip" android:contentDescription="@string/attribute_content_description_image" />
+    </LinearLayout>
+</RelativeLayout>

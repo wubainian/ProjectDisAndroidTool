@@ -5,17 +5,7 @@
 
 # direct methods
 .method public static D([B)Ljava/lang/String;
-    #.locals 1
-    .locals 3
-
-    #gl add
-
-    invoke-static {}, Lvsnake/wubainian/utils/callstack/CallStack;->printCallStack()V
-
-    const-string v0, "Lcom/kingroot/kinguser/abh;->D([B)Ljava/lang/String;"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    #gl end
+    .locals 1
 
     .prologue
     .line 42
@@ -28,13 +18,6 @@
 
     move-result-object v0
 
-    #gl add
-
-    const-string v1, "Lcom/kingroot/kinguser/abh;->D([B)Ljava/lang/String; res"
-    invoke-static {v1, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-
-    #gl end
-
     return-object v0
 .end method
 
@@ -42,14 +25,6 @@
     .locals 3
 
     .prologue
-
-    #gl add
-
-    const-string v0, "Lcom/kingroot/kinguser/abh;->E([B)[B : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    #gl end
-
     .line 47
     const/4 v0, 0x0
 

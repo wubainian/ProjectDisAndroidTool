@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">Found %1$d autostart behavior(s)</item>
+    </plurals>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">Blocked %1$d autostart behavior(s)</item>
+    </plurals>
+</resources>

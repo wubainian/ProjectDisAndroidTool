@@ -5,7 +5,7 @@
 
 # direct methods
 .method public static F(Ljava/lang/String;Ljava/lang/String;)Z
-    .locals 8
+    .locals 7
 
     .prologue
     const/4 v1, 0x1
@@ -98,12 +98,6 @@
     invoke-virtual {v0}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
 
     move-result-object v0
-
-
-    #gl add
-    const-string v7, "Lcom/kingroot/kinguser/zu;->F(Ljava/lang/String;Ljava/lang/String;)Z:load"
-    invoke-static {v7, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
 
     invoke-static {v0}, Ljava/lang/System;->load(Ljava/lang/String;)V
     :try_end_1

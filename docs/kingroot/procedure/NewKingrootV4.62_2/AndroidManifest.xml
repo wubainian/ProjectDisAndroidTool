@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.kingroot.kinguser" platformBuildVersionCode="16" platformBuildVersionName="4.1.2-1425332">
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:smallScreens="true"/>
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+    <uses-permission android:name="com.kingroot.kinguser.permission.REQUEST"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.kingroot.kinguser.permission.activityCalled"/>
+    <uses-permission android:name="android.permission.REBOOT_IPO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.GET_PACKAGE_SIZE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.android.launcher3.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="com.htc.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+    <uses-permission android:name="android.permission.DIAGNOSTIC"/>
+    <uses-permission android:name="android.permission.ACCESS_MTK_MMHW"/>
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+    <uses-feature android:name="android.hardware.wifi"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <permission-group android:description="@string/permission_group_desc_root_manager" android:label="@string/permission_group_root_manager" android:name="com.kingroot.kinguser.permission-group.SUPERUSER"/>
+    <permission android:description="@string/permission_group_desc_root_manager_request" android:label="@string/permission_group_root_manager_request" android:name="com.kingroot.kinguser.permission.REQUEST" android:permissionGroup="android.permission-group.SYSTEM_TOOLS" android:protectionLevel="signature"/>
+    <permission android:description="@string/permission_group_desc_activity_called_request" android:label="@string/permission_group_activity_called_request" android:name="com.kingroot.kinguser.permission.activityCalled" android:protectionLevel="signature"/>
+    <application android:allowBackup="false" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="com.kingroot.master.app.KUApplication">
+        <meta-data android:name="APPKEY_DENGTA" android:value="0M300GSH8G0RRTKY"/>
+        <service android:exported="false" android:name="com.kingroot.common.framework.service.KSysService" android:persistent="true" android:process=":service"/>
+        <provider android:authorities="com.kingroot.kingusesr.mpstorage" android:exported="false" android:name="com.kingroot.kinguser.filesystem.storage.KuMpStorageProvider" android:process=":service"/>
+        <service android:exported="false" android:name="com.kingroot.common.framework.task.KTaskSysService" android:persistent="true" android:process=":task"/>
+        <receiver android:name="com.kingroot.common.framework.broadcast.KSysBroadcastReceiver" android:process=":service">
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED"/>
+                <action android:name="android.intent.action.PACKAGE_REPLACED"/>
+                <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+                <action android:name="android.intent.action.PACKAGE_CHANGED"/>
+                <data android:scheme="package"/>
+            </intent-filter>
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.kingroot.master.action.TRAFFIC_STATISTICS"/>
+                <action android:name="com.kingroot.master.action.NAIN_EXIT_NOTIFY"/>
+            </intent-filter>
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="android.net.wifi.STATE_CHANGE"/>
+            </intent-filter>
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="android.intent.action.SIM_STATE_CHANGED"/>
+                <action android:name="android.hardware.usb.action.USB_STATE"/>
+            </intent-filter>
+            <intent-filter android:priority="0x7fffffff">
+                <action android:name="com.kingroot.kinguser.action.update"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.kingroot.master.action.MAIN_EXIT_CHECK"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.kingroot.master.action.NOTIFY_STATISTIC"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.kingroot.ACTION_SERVICE_PSS_RECORD"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.kingroot.kinguser.ACTION_MAIN_START_CHECK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.kingroot.common.framework.main.MainExitReceiver">
+            <intent-filter>
+                <action android:name="com.kingroot.master.action.MAIN_EXIT_CHECK"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:enabled="true" android:name="com.kingroot.common.report.performance.mgr.AlarmBroadcast" android:process=":service"/>
+        <receiver android:enabled="true" android:name="com.kingroot.kinguser.ai.receiver.AppLauncherMaskReceiver"/>
+        <activity android:launchMode="singleTop" android:name="com.kingroot.kinguser.ztool.autostartmgr.AutoStartMgrActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.kingroot.kinguser.ztool.uninstall.SoftwareUninstallActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.kingroot.kinguser.ztool.uninstall.SoftWareRecycleActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.kingroot.kinguser.ztool.uninstall.SoftWareCoreActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:launchMode="singleTop" android:name="com.kingroot.kingmaster.toolbox.cleaner.uninstall.optimize.UninstallOptimizeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:label="@string/app_name" android:launchMode="singleTop" android:name=".activitys.SliderMainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTask" android:name=".activitys.MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name=".activitys.RootCheckActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="true" android:launchMode="singleInstance" android:name="com.kingroot.kinguser.activitys.KuInstallNotifyActivity" android:noHistory="true" android:permission="com.kingroot.kinguser.permission.activityCalled" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.RootMgrActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name=".activitys.SoftwareHelpActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.LogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/app_name" android:name="com.kingroot.kinguser.activitys.SuRequestActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/Theme.RequestActivityTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/app_name" android:name="com.kingroot.kinguser.activitys.RePackageWarningActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/Theme.RequestActivityTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/app_name" android:name="com.kingroot.kinguser.activitys.DisablePkgActorActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/Theme.RequestActivityTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/app_name" android:name="com.kingroot.kinguser.activitys.CommonDialogActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/Theme.RequestActivityTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.KUCommonSettingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.AboutActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.SuRequestDialogSettingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.SuRequestLogSettingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.WiFiSettingActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.KmUpdateActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.AntiInjectActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.AntiInjectLogActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.AntiInjectAboutActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.view.KmUpdateWithNotifyActivity" android:noHistory="true" android:screenOrientation="portrait" android:taskAffinity="" android:theme="@style/Theme.RequestActivityTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:excludeFromRecents="true" android:launchMode="singleInstance" android:name="com.kingroot.kinguser.activitys.SuNotifyActivity" android:noHistory="true" android:process=":service" android:theme="@style/NoDisplay"/>
+        <activity android:excludeFromRecents="true" android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.view.PermissionRequestActivityMiui" android:noHistory="true" android:taskAffinity="" android:theme="@style/Theme.RequestActivityTheme" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:launchMode="singleTask" android:name="com.kingroot.kinguser.loader.LoaderActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.SoftwareProtectListActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="false" android:label="@string/app_name" android:launchMode="singleTop" android:name="com.kingroot.kinguser.activitys.SelectAppsActivity" android:screenOrientation="portrait" android:theme="@style/Theme.NoTitleAndTransAnim" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:exported="true" android:launchMode="singleTop" android:name="com.kingroot.kinguser.wxapi.WXEntryActivity" android:theme="@android:style/Theme.NoDisplay"/>
+        <activity android:launchMode="singleTask" android:name="com.tencent.tauth.AuthActivity" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent100833207"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.tencent.connect.common.AssistActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <receiver android:exported="false" android:name="com.kingroot.kinguser.receiver.SuRequestReceiver" android:process=":service">
+            <intent-filter>
+                <action android:name="com.kingroot.kinguser.SU_REQUEST"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:exported="false" android:name="com.kingroot.kinguser.receiver.AntiInjectLogDeleteReceiver">
+            <intent-filter>
+                <action android:name="com.kingroot.kinguser.ANTILOG_DELETE"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.kingroot.kinguser.service.KingRootAppListService" android:permission="com.kingroot.kinguser.permission.REQUEST">
+            <intent-filter>
+                <action android:name="com.kingroot.kinguser.service.IKingrootAppList"/>
+            </intent-filter>
+        </service>
+        <service android:exported="false" android:name="com.kingroot.kinguser.root.mgr.SuNotifyService" android:process=":service"/>
+        <service android:exported="false" android:name="com.kingroot.kinguser.loader.KLoaderNotifyService"/>
+        <service android:name="com.kingroot.kinguser.service.KuCommonService" android:permission="com.kingroot.kinguser.permission.activityCalled"/>
+        <uses-library android:name="android.test.runner"/>
+    </application>
+    <instrumentation android:label="test" android:name="android.test.InstrumentationTestRunner" android:targetPackage="com.kingroot.kinguser"/>
+</manifest>

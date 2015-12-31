@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minWidth="170.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/progress_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/common_loading_s" />
+    <TextView android:textSize="15.199982sp" android:textColor="@color/general_text_color_km" android:ellipsize="start" android:gravity="center" android:id="@id/progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="15.0dip" android:text="@android:string/unknownName" android:singleLine="true" />
+</LinearLayout>

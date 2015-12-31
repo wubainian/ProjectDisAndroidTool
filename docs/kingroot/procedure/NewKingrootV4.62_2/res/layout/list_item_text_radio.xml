@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" style="@style/list_item_single_line_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_title_text_size" android:textColor="@color/text_primary_color" android:id="@id/item_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/setting_title" android:layout_weight="1.0" />
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@id/radio_button" android:layout_width="wrap_content" android:layout_height="22.0dip" android:src="@drawable/selector_radio" android:scaleType="centerInside" android:contentDescription="@null" />
+</LinearLayout>

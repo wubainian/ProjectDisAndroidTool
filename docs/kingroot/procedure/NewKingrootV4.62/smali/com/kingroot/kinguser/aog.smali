@@ -282,8 +282,7 @@
 .end method
 
 .method public static qs()Z
-    #.locals 3
-    .locals 4
+    .locals 3
 
     .prologue
     const/4 v0, 0x1
@@ -347,11 +346,6 @@
     :try_start_1
     sget-object v0, Lcom/kingroot/kinguser/aog;->RA:Ljava/lang/String;
 
-    #gl add
-    const-string v3, "Lcom/kingroot/kinguser/aog;->qs()Z:load"
-    invoke-static {v3, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
     invoke-static {v0}, Ljava/lang/System;->load(Ljava/lang/String;)V
 
     .line 84
@@ -386,11 +380,6 @@
     .line 88
     :try_start_3
     sget-object v0, Lcom/kingroot/kinguser/aog;->RA:Ljava/lang/String;
-
-    #gl add
-    const-string v3, "Lcom/kingroot/kinguser/aog;->qs()Z:load"
-    invoke-static {v3, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
 
     invoke-static {v0}, Ljava/lang/System;->load(Ljava/lang/String;)V
 

@@ -307,17 +307,9 @@
 .end method
 
 .method public static a(Landroid/content/pm/PackageInfo;)Ljava/lang/String;
-    #.locals 3
-    .locals 5
+    .locals 3
 
     .prologue
-
-    #gl add
-    const-string v3, "Lcom/kingroot/kinguser/aka;->a(Landroid/content/pm/PackageInfo;)Ljava/lang/String;"
-    const-string v4, "is called"
-    invoke-static {v3, v4}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
     .line 152
     iget-object v0, p0, Landroid/content/pm/PackageInfo;->signatures:[Landroid/content/pm/Signature;
 

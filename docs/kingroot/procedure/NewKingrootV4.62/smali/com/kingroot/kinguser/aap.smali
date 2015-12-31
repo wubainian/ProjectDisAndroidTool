@@ -17,19 +17,13 @@
 
 # virtual methods
 .method public b(Ljava/lang/String;[B)V
-    #.locals 2
-    .locals 4
+    .locals 2
 
     .prologue
     .line 71
     invoke-virtual {p0}, Lcom/kingroot/kinguser/aap;->ly()Ljava/lang/String;
 
     move-result-object v0
-
-    #gl add
-    const-string v2, "Lcom/kingroot/kinguser/aap;->b(Ljava/lang/String;[B)V-str"
-    invoke-static {v2, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
 
     invoke-virtual {v0}, Ljava/lang/String;->getBytes()[B
 
@@ -58,8 +52,7 @@
 .end method
 
 .method public dc(Ljava/lang/String;)[B
-    #.locals 3
-    .locals 5
+    .locals 3
 
     .prologue
     .line 28
@@ -71,11 +64,6 @@
     invoke-virtual {p0}, Lcom/kingroot/kinguser/aap;->ly()Ljava/lang/String;
 
     move-result-object v1
-
-    #gl add
-    const-string v3, "Lcom/kingroot/kinguser/aap;->dc(Ljava/lang/String;)[B-str"
-    invoke-static {v3, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
 
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 
@@ -101,8 +89,7 @@
 .end method
 
 .method public dd(Ljava/lang/String;)Ljava/io/ByteArrayInputStream;
-    #.locals 3
-    .locals 5
+    .locals 3
 
     .prologue
     .line 43
@@ -114,11 +101,6 @@
     invoke-virtual {p0}, Lcom/kingroot/kinguser/aap;->ly()Ljava/lang/String;
 
     move-result-object v1
-
-    #gl add
-    const-string v3, "Lcom/kingroot/kinguser/aap;->dd(Ljava/lang/String;)Ljava/io/ByteArrayInputStream;-str"
-    invoke-static {v3, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
 
     invoke-virtual {v1}, Ljava/lang/String;->getBytes()[B
 

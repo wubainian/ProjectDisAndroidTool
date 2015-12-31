@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/top_layout" android:paddingRight="0.0dip" android:descendantFocusability="blocksDescendants" style="@style/list_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_icon_marginRight">
+        <ImageView android:id="@id/item_icon" android:layout_marginRight="0.0dip" android:contentDescription="@string/image" style="@style/list_item_icon_style" />
+        <TextView android:textSize="@dimen/text_overlay_size" android:textColor="@color/text_primary_color" android:layout_gravity="bottom|right|center" android:id="@id/item_icon_overlay" android:background="@drawable/tag_system" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/system" />
+    </FrameLayout>
+    <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:id="@id/item_label" android:layout_marginLeft="4.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/list_item_tag_style" />
+        <TextView android:id="@id/item_title" android:layout_toLeftOf="@id/item_label" android:layout_alignParentLeft="true" style="@style/list_item_primary_title_style" />
+        <TextView android:id="@id/item_description" android:layout_toLeftOf="@id/item_label" android:layout_below="@id/item_title" android:layout_alignParentLeft="true" style="@style/list_item_secondary_title_style" />
+    </RelativeLayout>
+    <CheckBox android:id="@id/item_checkbox" android:paddingRight="@dimen/list_item_paddingLeft" android:layout_height="fill_parent" style="@style/list_item_checkbox_style" />
+</LinearLayout>

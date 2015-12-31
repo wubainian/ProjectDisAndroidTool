@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/top_layout" android:descendantFocusability="blocksDescendants" style="@style/list_item_style_km"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon" android:contentDescription="@string/image" style="@style/list_item_icon_style_km" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="15.0sp" android:ellipsize="end" android:id="@id/item_title" android:layout_weight="1.0" style="@style/list_item_primary_title_style_km" />
+            <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/uninstall_item_subtitle_color" android:ellipsize="none" android:id="@id/item_describe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6.0dip" android:layout_marginRight="11.199982dip" android:singleLine="true" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/uninstall_item_subtitle_color" android:id="@id/item_describe2" android:text="@string/application_info" style="@style/list_item_secondary_title_style_km" />
+    </LinearLayout>
+    <CheckBox android:gravity="center" android:layout_gravity="center" android:id="@id/item_checkbox" style="@style/list_item_checkbox_style_km" />
+    <TextView android:textSize="12.0sp" android:textColor="@color/red" android:id="@id/unremovable_tag" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/unremovable" android:singleLine="true" />
+</LinearLayout>

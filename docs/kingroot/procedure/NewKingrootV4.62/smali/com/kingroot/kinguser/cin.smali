@@ -569,14 +569,6 @@
 .method public static a(Ljava/lang/String;)Ljava/lang/String;
     .locals 5
 
-    
-    #gl add
-
-    const-string v0, "Lcom/kingroot/kinguser/cin;->a(Ljava/lang/String;)Ljava/lang/String; : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    #gl end
-
     if-nez p0, :cond_0
 
     const-string v0, "0"

@@ -987,13 +987,6 @@
 .method public static z(Ljava/io/File;)Ljava/lang/String;
     .locals 6
 
-    #gl add
-
-    const-string v0, "Lcom/kingroot/kinguser/brj;->z(Ljava/io/File;)Ljava/lang/String; : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    #gl end
-
     const-string v0, ""
 
     const/4 v3, 0x0

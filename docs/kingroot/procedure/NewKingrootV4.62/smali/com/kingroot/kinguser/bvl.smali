@@ -6,14 +6,6 @@
 .method public static final a([B)Ljava/lang/String;
     .locals 9
 
-    
-    #gl add
-
-    const-string v0, "Lcom/kingroot/kinguser/bvl;->a([B)Ljava/lang/String; : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    #gl end
-
     const/4 v0, 0x0
 
     const/16 v1, 0x10

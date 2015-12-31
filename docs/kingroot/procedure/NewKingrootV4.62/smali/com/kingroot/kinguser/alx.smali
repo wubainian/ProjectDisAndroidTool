@@ -495,16 +495,9 @@
 .end method
 
 .method private static b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;
-    #.locals 2
-    .locals 4
+    .locals 2
 
     .prologue
-    #gl add
-    const-string v2, "Lcom/kingroot/kinguser/alx;->b(Landroid/content/pm/PackageManager;Ljava/lang/String;)[Landroid/content/pm/Signature;"
-    const-string v3, "is called"
-    invoke-static {v2, v3}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
     const/4 v0, 0x0
 
     .line 55
@@ -537,16 +530,9 @@
 .end method
 
 .method private static c(Landroid/content/pm/PackageInfo;)Z
-    #.locals 4
-    .locals 6
+    .locals 4
 
     .prologue
-    #gl add
-    const-string v4, "Lcom/kingroot/kinguser/alx;->c(Landroid/content/pm/PackageInfo;)Z"
-    const-string v5, "is called"
-    invoke-static {v4, v5}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-    
     const/4 v0, 0x0
 
     .line 320

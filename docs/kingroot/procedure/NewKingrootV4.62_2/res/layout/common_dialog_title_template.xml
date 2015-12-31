@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/shape_dialog_common_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/close" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/common_dialog_title_template_close_top" android:layout_marginRight="@dimen/common_dialog_title_template_close_right" android:src="@drawable/selector_root_share_dialog_close_btn" android:scaleType="centerInside" android:layout_alignParentRight="true" android:contentDescription="@string/image" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/title_layout" android:paddingLeft="@dimen/common_dialog_title_template_icon_margin" android:paddingTop="@dimen/common_dialog_title_template_icon_margin" android:paddingBottom="@dimen/common_dialog_title_template_icon_marginBottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/title_icon" android:layout_width="@dimen/common_dialog_title_template_icon_w" android:layout_height="@dimen/common_dialog_title_template_icon_h" android:layout_marginRight="@dimen/common_dialog_title_template_icon_marginRight" android:src="@drawable/dialog_title_warn" android:contentDescription="@string/image" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_title_size" android:textColor="@color/root_share_text" android:layout_gravity="center_vertical" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/unknownName" />
+            <TextView android:id="@id/secondary_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_secondary_style_km" />
+        </LinearLayout>
+        <ImageView android:id="@id/new_tag" android:visibility="gone" android:layout_width="@dimen/new_tag_width" android:layout_height="@dimen/new_tag_height" android:layout_marginLeft="6.0dip" android:src="@drawable/icon_new" android:contentDescription="@string/attribute_content_description_image" />
+    </LinearLayout>
+</RelativeLayout>

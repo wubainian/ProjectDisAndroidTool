@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="main_page_rounded_king_icon_size">108.0dip</dimen>
+    <dimen name="main_page_inner_circle_size">98.0dip</dimen>
+    <dimen name="main_page_out_circle_size">108.0dip</dimen>
+    <dimen name="main_page_inner_circle_padding_top">20.0dip</dimen>
+    <dimen name="main_page_abnormal_text_padding_bottom">18.0dip</dimen>
+    <dimen name="main_page_tool_icon_size">47.0dip</dimen>
+    <dimen name="kr4_circle_diameter">190.0dip</dimen>
+    <dimen name="kr4_brand_icon_w">137.0dip</dimen>
+    <dimen name="kr4_brand_icon_h">60.0dip</dimen>
+    <dimen name="kr4_checkroot_inner_diameter">184.0dip</dimen>
+    <dimen name="kr4_title_margin_bottom">32.0dip</dimen>
+    <dimen name="kr4_circle_out_loop_common_thickness">4.0px</dimen>
+</resources>

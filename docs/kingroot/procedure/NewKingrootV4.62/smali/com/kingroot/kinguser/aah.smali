@@ -5,8 +5,7 @@
 
 # direct methods
 .method public static I(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Properties;
-    #.locals 6
-    .locals 8
+    .locals 6
 
     .prologue
     .line 26
@@ -24,13 +23,6 @@
     move-result-object v0
 
     .line 30
-
-    #gl add
-    const-string v6, "Lcom/kingroot/kinguser/aah;->I(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Properties;-str"
-    invoke-static {v6, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
-
     invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v3
@@ -77,12 +69,6 @@
     .line 45
     :cond_0
     :goto_0
-
-    #gl add
-    const-string v0, "aah.I : props"
-    invoke-static {v0, v2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
-    #gl end
-
     return-object v2
 
     .line 38
@@ -152,8 +138,7 @@
 .end method
 
 .method public static J(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Properties;
-    #.locals 6
-    .locals 8
+    .locals 6
 
     .prologue
     .line 55
@@ -169,12 +154,6 @@
     invoke-static {p0}, Lcom/kingroot/kinguser/qe;->cc(Ljava/lang/String;)[B
 
     move-result-object v0
-
-
-    #gl add
-    const-string v6, "Lcom/kingroot/kinguser/aah;->J(Ljava/lang/String;Ljava/lang/String;)Ljava/util/Properties;-str"
-    invoke-static {v6, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
 
     .line 59
     invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
@@ -295,8 +274,7 @@
 .end method
 
 .method public static a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Properties;)V
-    #.locals 5
-    .locals 7
+    .locals 5
 
     .prologue
     .line 86
@@ -318,15 +296,6 @@
     invoke-virtual {p2, v0, v1}, Ljava/util/Properties;->store(Ljava/io/OutputStream;Ljava/lang/String;)V
 
     .line 90
-
-    #gl add
-    const-string v6, "aah.a : props"
-    invoke-static {v6, p2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
-
-    const-string v6, "Lcom/kingroot/kinguser/aah;->a(Ljava/lang/String;Ljava/lang/String;Ljava/util/Properties;)V-str"
-    invoke-static {v6, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
     invoke-virtual {p1}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v1

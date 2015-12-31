@@ -293,12 +293,6 @@
     .locals 10
 
     .prologue
-    #gl add
-    const-string v0, "Lcom/kingroot/kinguser/akl;->a(Landroid/content/pm/PackageManager;Ljava/util/List;ZZZLjava/util/HashMap;Ljava/util/List;Ljava/util/HashMap;)V"
-    const-string v1, "is called"
-    invoke-static {v0, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
     .line 480
     const/4 v1, 0x0
 
@@ -567,15 +561,9 @@
 .end method
 
 .method private static a(Landroid/content/Context;Landroid/content/pm/PackageInfo;)Z
-    #.locals 4
-    .locals 6
+    .locals 4
 
     .prologue
-    #gl add
-    const-string v4, "Lcom/kingroot/kinguser/akl;->a(Landroid/content/Context;Landroid/content/pm/PackageInfo;)Z"
-    const-string v5, "is called"
-    invoke-static {v4, v5}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
     const/4 v0, 0x0
 
     .line 884
@@ -1144,13 +1132,6 @@
     .locals 22
 
     .prologue
-    #gl add
-    const-string v0, "Lcom/kingroot/kinguser/akl;->d(Landroid/content/Context;I)Ljava/util/List;"
-    const-string v1, "is called"
-    invoke-static {v0, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
-
     .line 260
     new-instance v8, Ljava/util/ArrayList;
 

@@ -24,14 +24,6 @@
     .locals 2
 
     .prologue
-
-    #gl add
-
-    const-string v0, "Lcom/kingroot/kinguser/bjd;->N([B)[B : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    #gl end
-    
     .line 95
     .line 96
     if-eqz p1, :cond_0

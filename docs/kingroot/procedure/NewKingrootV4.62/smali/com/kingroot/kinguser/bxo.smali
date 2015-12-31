@@ -974,15 +974,6 @@
     .locals 5
 
     .prologue
-    #gl add
-    const-string v0, "Lcom/kingroot/kinguser/bxo;->a(Landroid/content/Context;)Z"
-    const-string v1, "is called"
-    invoke-static {v0, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-
-    const-string v0, "Lcom/kingroot/kinguser/bxo;->a(Landroid/content/Context;)Z : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-    #gl end
-
     const/4 v0, 0x0
 
     .line 542
@@ -1598,14 +1589,6 @@
     .locals 6
 
     .prologue
-    
-    #gl add
-
-    const-string v0, "Lcom/kingroot/kinguser/bxo;->ed(Ljava/lang/String;)Ljava/lang/String; : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    #gl end
-    
     .line 693
     .line 695
     :try_start_0

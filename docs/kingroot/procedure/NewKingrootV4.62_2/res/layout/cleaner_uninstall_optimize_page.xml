@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/list_item_bg_selector" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/list_view_sub_title" />
+    <com.kingroot.common.uilib.KBaseListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="@dimen/operation_bar_shadow_neg" android:cacheColorHint="#00000000" android:divider="@drawable/list_view_divider_shape" android:layout_weight="1.0" />
+    <include android:layout_gravity="bottom" android:id="@id/button_area" android:visibility="gone" layout="@layout/operation_bar" />
+</LinearLayout>

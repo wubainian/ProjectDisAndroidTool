@@ -440,12 +440,6 @@
     .locals 11
 
     .prologue
-    #gl add
-    const-string v0, "Lcom/kingroot/kinguser/alz;->c(Landroid/content/pm/PackageManager;)Ljava/util/Set;"
-    const-string v1, "is called"
-    invoke-static {v0, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
     const/4 v10, 0x0
 
     const/4 v3, 0x0

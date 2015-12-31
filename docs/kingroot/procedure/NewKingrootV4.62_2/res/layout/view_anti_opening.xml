@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="80.0sp" android:textColor="@color/white" android:id="@id/anti_open_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="%" android:layout_toRightOf="@id/anti_open_percentage" android:layout_alignBaseline="@id/anti_open_percentage" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/list_item_text_primary" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/anti_opening_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/anti_protect_opening" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_bound_margin" android:layout_marginRight="@dimen/dialog_bound_margin" android:minWidth="@dimen/dialog_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/dialog_title_text_size" android:textColor="@color/text_primary_color" android:gravity="center_vertical" android:id="@id/item_title" android:background="@drawable/shape_dialog_common_title_bg" android:paddingLeft="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_title_min_height" android:text="@string/app_name" />
+    <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+    <ListView android:id="@id/listView" android:visibility="visible" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false" android:divider="@drawable/shape_list_view_divider" />
+    <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+    <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/dialog_normal_btn_text" android:gravity="center" android:id="@id/button" android:background="@drawable/selector_dialog_common_middle_btn" android:focusable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_btn_min_height" android:text="@string/dialog_btn_cancel" />
+</LinearLayout>

@@ -20,8 +20,7 @@
 
 # direct methods
 .method static constructor <clinit>()V
-    #.locals 2
-    .locals 3
+    .locals 2
 
     const/4 v1, 0x0
 
@@ -47,11 +46,6 @@
 
     :try_start_0
     const-string v0, "MtaNativeCrash"
-
-    #gl add
-    const-string v2, "Lcom/kingroot/kinguser/chp;-><clinit>()V:loadLibrary"
-    invoke-static {v2, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
 
     invoke-static {v0}, Ljava/lang/System;->loadLibrary(Ljava/lang/String;)V
     :try_end_0

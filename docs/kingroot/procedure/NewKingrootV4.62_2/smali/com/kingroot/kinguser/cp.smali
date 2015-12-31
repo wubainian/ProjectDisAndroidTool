@@ -1,0 +1,14 @@
+.class public interface abstract Lcom/kingroot/kinguser/cp;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# virtual methods
+.method public abstract aC()I
+.end method
+
+.method public abstract aD()Ljava/lang/String;
+.end method
+
+.method public abstract aE()I
+.end method

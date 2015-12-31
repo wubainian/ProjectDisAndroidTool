@@ -821,16 +821,6 @@
     .locals 6
 
     .prologue
-
-    #gl add
-
-    const-string v0, "Lcom/kingroot/kinguser/qf;->m(Ljava/io/File;)Ljava/lang/String; : MessageDigest"
-    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
-
-    const-string v0, "param file"
-    invoke-static {v0, p0}, Lvsnake/wubainian/utils/simple/FileHelper;->printFile(Ljava/lang/String;Ljava/io/File;)V
-    #gl end
-    
     .line 412
     const-string v0, ""
 

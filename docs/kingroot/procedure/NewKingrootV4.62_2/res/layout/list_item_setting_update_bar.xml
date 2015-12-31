@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="8.0dip" />
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/shape_update_bar" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="10.5dip" android:layout_marginRight="10.5dip">
+        <Button android:textSize="16.5sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/button" android:background="@drawable/selector_common_button_blue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/app_name" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:max="100" android:progress="0" android:progressDrawable="@drawable/layer_list_update_progress_bar" android:layout_alignParentBottom="true" style="?android:attr/progressBarStyleHorizontal" />
+    </RelativeLayout>
+    <View android:layout_width="fill_parent" android:layout_height="18.0dip" />
+</LinearLayout>

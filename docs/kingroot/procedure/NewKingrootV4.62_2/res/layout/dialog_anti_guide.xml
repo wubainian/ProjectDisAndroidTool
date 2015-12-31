@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_bound_margin" android:layout_marginRight="@dimen/dialog_bound_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_dialog_common_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/dialog_title_min_height">
+        <TextView android:textSize="@dimen/dialog_title_text_size" android:textColor="@color/text_primary_color" android:gravity="center_vertical" android:id="@id/item_title" android:paddingLeft="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_name" />
+        <ImageView android:id="@id/new_tag" android:visibility="gone" android:layout_width="@dimen/new_tag_width" android:layout_height="@dimen/new_tag_height" android:layout_marginLeft="6.0dip" android:src="@drawable/icon_new" android:contentDescription="@string/attribute_content_description_image" />
+    </LinearLayout>
+    <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+    <LinearLayout android:orientation="vertical" android:id="@id/main_view_container" android:background="@color/general_light_bg" android:padding="@dimen/common_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width">
+        <ImageView android:layout_gravity="center" android:id="@id/item_content_icon" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:src="@drawable/anti_guide_warning" android:contentDescription="@string/attribute_content_description_image" />
+        <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/text_primary_color" android:gravity="center" android:id="@id/item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@android:string/unknownName" android:lineSpacingMultiplier="1.2" />
+    </LinearLayout>
+    <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linearLayoutButtons" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_min_height">
+        <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/dialog_normal_btn_text" android:id="@id/button_left" android:background="@drawable/selector_dialog_common_left_btn" android:focusable="true" android:nextFocusRight="@id/button_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dialog_btn_cancel" android:layout_weight="1.0" />
+        <View android:id="@id/button_line" android:background="@color/common_divider" android:layout_width="@dimen/common_divider_width" android:layout_height="fill_parent" />
+        <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/dialog_highlight_btn_text" android:id="@id/button_right" android:background="@drawable/selector_dialog_common_right_btn" android:focusable="true" android:nextFocusLeft="@id/button_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dialog_btn_ok" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

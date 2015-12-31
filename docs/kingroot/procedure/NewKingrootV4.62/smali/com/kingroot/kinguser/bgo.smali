@@ -266,16 +266,9 @@
 .end method
 
 .method private static aK(Landroid/content/Context;)Z
-    #.locals 4
-    .locals 6
+    .locals 4
 
     .prologue
-    #gl add
-    const-string v4, "Lcom/kingroot/kinguser/bgo;->aK(Landroid/content/Context;)Z"
-    const-string v5, "is called"
-    invoke-static {v4, v5}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
-    #gl end
-
     const/4 v0, 0x0
 
     .line 223

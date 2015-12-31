@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/selected_panel" android:background="@color/sub_title_bg" android:paddingLeft="@dimen/title_bar_paddingLeft" android:layout_width="fill_parent" android:layout_height="30.0dip" android:minHeight="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/uninstall_item_header_color" android:id="@id/selected_tv" android:text="@string/backup_selected" style="@style/text_secondary_style" />
+    <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/text_secondary_color" android:gravity="left" android:id="@id/selected_num_tv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+</LinearLayout>
