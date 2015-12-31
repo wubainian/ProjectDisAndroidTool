@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/list_item_title_text" android:gravity="center_vertical" android:id="@id/list_title" android:background="@color/list_item_title_bg" android:paddingLeft="@dimen/common_padding" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_title_min_height" android:text="@android:string/unknownName" android:singleLine="true" android:contentDescription="@string/attribute_content_description_header"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

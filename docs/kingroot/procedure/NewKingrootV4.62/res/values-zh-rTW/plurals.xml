@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="auto_start_enabled_event_count_string">
+        <item quantity="other">發現%1$d個自啟行爲</item>
+    </plurals>
+    <plurals name="auto_start_disabled_event_count_string">
+        <item quantity="other">已禁止%1$d個自啟行爲</item>
+    </plurals>
+</resources>

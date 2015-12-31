@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/content" android:background="@drawable/anti_inject_app_launcher_text_mask_bg_selector" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="45.0dip">
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/anti_inject_app_launcher_text_mask_icon" />
+        <com.kingcore.uilib.SlideFlashTextView android:layout_gravity="center_vertical" android:id="@id/text" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+          xmlns:app="http://schemas.android.com/apk/res/com.kingroot.kinguser" />
+    </LinearLayout>
+</LinearLayout>

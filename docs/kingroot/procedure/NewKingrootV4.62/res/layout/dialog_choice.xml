@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dialog_bound_margin" android:layout_marginRight="@dimen/dialog_bound_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/common_dialog_title_template" />
+    <ScrollView android:background="@color/general_light_bg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/common_dialog_padding" android:paddingRight="@dimen/common_dialog_padding" android:paddingBottom="@dimen/common_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="@dimen/dialog_min_width">
+            <TextView android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/text_primary_color" android:id="@id/item_content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" android:text="@string/knox_forbid_content" android:lineSpacingMultiplier="1.2" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="13.0dip">
+                <CheckBox android:textSize="@dimen/dialog_content_text_size" android:textColor="@color/text_primary_color" android:id="@id/checkbox_remember" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/selector_checkbox" android:text="@string/dialog_label_remember" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" android:contentDescription="@string/attribute_content_description_image" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/linearLayoutButtons" android:layout_width="fill_parent" android:layout_height="@dimen/dialog_btn_min_height">
+        <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/dialog_normal_btn_text" android:id="@id/button_left" android:background="@drawable/selector_dialog_common_left_btn" android:focusable="true" android:nextFocusRight="@id/button_right" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/dialog_btn_cancel" android:layout_weight="1.0" />
+        <View android:background="@color/common_divider" android:layout_width="@dimen/common_divider_width" android:layout_height="fill_parent" android:contentDescription="@string/attribute_content_description_image" />
+        <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/dialog_highlight_btn_text" android:id="@id/button_right" android:background="@drawable/selector_dialog_common_right_btn" android:focusable="true" android:nextFocusLeft="@id/button_left" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/root_authorization_deny" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

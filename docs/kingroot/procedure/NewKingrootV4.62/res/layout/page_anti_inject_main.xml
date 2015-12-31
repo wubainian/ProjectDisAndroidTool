@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_light_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header_view" android:background="@color/global_primary_blue_color" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="6.0">
+        <Button android:id="@id/testBtnFail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80.0dip" android:text="注入失败" />
+        <Button android:id="@id/testBtnReboot" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="注入重启" android:layout_below="@id/testBtnFail" />
+        <Button android:id="@id/testBtnCheckFlag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="查询标志" android:layout_below="@id/testBtnReboot" />
+        <TextView android:textColor="@color/black" android:id="@id/testTvDisplayFlag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="000000" android:layout_below="@id/testBtnCheckFlag" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/feature_list" android:background="@color/anti_page_list_item_background_white" android:paddingTop="8.0dip" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+        <include android:id="@id/feature1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/list_item_anti_inject_main" />
+        <include android:id="@id/feature2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/list_item_anti_inject_main" />
+        <include android:id="@id/feature3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/list_item_anti_inject_main" />
+    </LinearLayout>
+</LinearLayout>

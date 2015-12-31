@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="opm_result_text">45</integer>
+    <integer name="opm_result_unit_text">15</integer>
+    <integer name="autostart_num_text">34</integer>
+    <integer name="autostart_desc_text">12</integer>
+    <integer name="adblock_num_text">34</integer>
+    <integer name="adblock_desc_text">12</integer>
+    <integer name="cpv_default_progress">0</integer>
+    <integer name="cpv_default_max_progress">100</integer>
+    <integer name="cpv_default_anim_duration">4000</integer>
+    <integer name="cpv_default_anim_swoop_duration">5000</integer>
+    <integer name="cpv_default_anim_sync_duration">500</integer>
+    <integer name="cpv_default_anim_steps">3</integer>
+</resources>

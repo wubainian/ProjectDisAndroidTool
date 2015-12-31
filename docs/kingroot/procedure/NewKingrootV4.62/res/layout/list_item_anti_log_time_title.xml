@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/list_item_title_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/list_item_title_min_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/list_item_title_text" android:layout_gravity="center_vertical" android:id="@id/anti_log_list_title" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/common_padding" android:text="@android:string/unknownName" android:singleLine="true" />
+</LinearLayout>

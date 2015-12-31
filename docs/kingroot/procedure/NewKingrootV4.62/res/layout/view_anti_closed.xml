@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/anti_closed_icon" android:background="@drawable/anti_inject_closed" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginTop="45.0dip" />
+    <TextView android:textSize="@dimen/list_item_text_primary" android:textColor="@color/white" android:layout_gravity="center" android:id="@id/anti_closed_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/anti_protect_closed" />
+    <Button android:textSize="@dimen/list_item_text_primary" android:textColor="@color/btn_default_blue_color" android:layout_gravity="center" android:id="@id/open_right_now" android:background="@drawable/anti_open_btn" android:paddingLeft="30.0dip" android:paddingTop="5.0dip" android:paddingRight="30.0dip" android:paddingBottom="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/anti_protect_open_rn" />
+</LinearLayout>

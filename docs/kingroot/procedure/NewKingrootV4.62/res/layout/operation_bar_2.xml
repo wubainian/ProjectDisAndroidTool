@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/operation_bar" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/list_footer_bar_height">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/container_bg_km" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_centerVertical="true">
+            <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/operation_first_btn" android:background="@drawable/common_btn_blue_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginRight="17.0dip" android:layout_weight="1.0" />
+            <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/operation_second_btn" android:background="@drawable/common_btn_blue_selector" android:layout_width="0.0dip" android:layout_height="40.0dip" android:layout_marginLeft="17.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

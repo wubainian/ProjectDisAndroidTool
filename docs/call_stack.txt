@@ -1,0 +1,1 @@
+invoke-static {}, Lvsnake/wubainian/utils/callstack/CallStack;->printCallStack()V

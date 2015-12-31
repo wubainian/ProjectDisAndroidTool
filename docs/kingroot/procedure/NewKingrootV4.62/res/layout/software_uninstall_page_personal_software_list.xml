@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/global_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentTop="true">
+        <include layout="@layout/list_view_sub_title" />
+        <com.kingroot.common.uilib.TransparentListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="0.0dip" android:cacheColorHint="#00000000" android:divider="@drawable/list_view_divider_padding_shape" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_gravity="center" android:id="@id/button_area" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/list_footer_bar_height">
+                <Button android:textSize="15.0sp" android:textColor="@color/white" android:id="@id/uninstall_button" android:background="@drawable/common_btn_blue_selector" android:layout_width="fill_parent" android:layout_height="45.0dip" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar android:gravity="center" android:id="@id/loading_progress" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:indeterminateDrawable="@drawable/loading_drawable" android:layout_centerInParent="true" />
+</RelativeLayout>

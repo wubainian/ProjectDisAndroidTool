@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/nc_list_empty_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_empty_notification" android:scaleType="centerInside" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/global_secondly_grey_text_color" android:gravity="center" android:id="@id/nc_list_empty_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/without_unreading_notify" android:layout_below="@id/nc_list_empty_icon" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@color/loading_dialog_bg_color" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center" android:id="@id/progress_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/backgroup_uninstall_1" />
+        <ImageView android:layout_gravity="center" android:id="@id/progress_turning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uninstall_uninstall_2" />
+    </FrameLayout>
+    <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/process_percent_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:singleLine="true" style="@style/text_primary_uninstall_style" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/current_software" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="100.0dip" android:singleLine="true" />
+</LinearLayout>

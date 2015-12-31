@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/top_layout" android:descendantFocusability="blocksDescendants" style="@style/list_item_style_km"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/item_icon" android:contentDescription="@string/image" style="@style/list_item_icon_style_km" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:ellipsize="end" android:id="@id/item_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/list_item_primary_title_style_km" />
+        <TextView android:ellipsize="end" android:id="@id/item_describe2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/application_info" style="@style/list_item_secondary_title_style_km" />
+    </LinearLayout>
+    <TextView android:layout_gravity="center_vertical" android:id="@id/item_describe" style="@style/text_secondary_style_km" />
+</LinearLayout>

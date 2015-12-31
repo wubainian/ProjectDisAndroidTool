@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:clickable="false" style="@style/list_header_bar_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/warning_icon" android:visibility="gone" android:src="@drawable/core_uninstall_default" android:contentDescription="@string/image" style="@style/list_item_icon_container_style" />
+    <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/uninstall_item_header_color" android:gravity="center_vertical" android:id="@id/item_header" android:layout_width="fill_parent" android:layout_height="@dimen/list_header_bar_height" android:text="@string/default_appname" android:singleLine="true" style="@style/text_primary_style_km" />
+            <TextView android:gravity="top" android:id="@id/item_des" android:visibility="gone" android:layout_height="35.0dip" android:layout_marginTop="2.0dip" android:text="@string/uninstall_suggestion_tips" style="@style/text_secondary_style_km" />
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/image_expand_state" android:background="@color/transparent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="13.799988dip" android:src="@drawable/arrow_list_common" android:contentDescription="@string/image" />
+</LinearLayout>

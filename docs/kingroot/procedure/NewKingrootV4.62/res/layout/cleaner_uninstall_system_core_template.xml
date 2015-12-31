@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/head_warning_tips" android:background="@color/btn_default_red_color" style="@style/list_header_bar_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/warning_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/core_uninstall_samall" android:scaleType="fitCenter" android:contentDescription="@string/image" style="@style/list_item_icon_container_style" />
+    <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/warning_text" android:text="@string/uninstall_warning_tips" android:singleLine="true" style="@style/text_secondary_style_km" />
+</LinearLayout>
