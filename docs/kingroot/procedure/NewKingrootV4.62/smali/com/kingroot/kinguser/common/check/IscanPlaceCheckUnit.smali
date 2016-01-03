@@ -133,6 +133,7 @@
 
 .method private static eK(Ljava/lang/String;)Ljava/lang/String;
     .locals 8
+    #.locals 10
 
     .prologue
     const/4 v7, 0x4
@@ -278,6 +279,11 @@
     new-instance v2, Ljava/io/FileOutputStream;
 
     invoke-direct {v2, v4}, Ljava/io/FileOutputStream;-><init>(Ljava/io/File;)V
+
+    #gl add
+
+    #gl end
+
     :try_end_1
     .catch Ljava/lang/Exception; {:try_start_1 .. :try_end_1} :catch_e
     .catchall {:try_start_1 .. :try_end_1} :catchall_1

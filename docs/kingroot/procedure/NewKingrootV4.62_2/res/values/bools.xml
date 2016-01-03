@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <bool name="cpv_default_is_indeterminate">false</bool>
-    <bool name="cpv_default_anim_autostart">false</bool>
-    <bool name="default_line_indicator_centered">true</bool>
-</resources>

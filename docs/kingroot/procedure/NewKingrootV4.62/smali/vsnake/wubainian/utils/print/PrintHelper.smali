@@ -8,7 +8,7 @@
     .locals 0
 
     .prologue
-    .line 9
+    .line 10
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
     return-void
@@ -20,7 +20,7 @@
     .param p1, "t"    # B
 
     .prologue
-    .line 12
+    .line 13
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -47,7 +47,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 13
+    .line 14
     return-void
 .end method
 
@@ -57,7 +57,7 @@
     .param p1, "t"    # C
 
     .prologue
-    .line 33
+    .line 34
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -84,7 +84,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 34
+    .line 35
     return-void
 .end method
 
@@ -94,7 +94,7 @@
     .param p1, "t"    # D
 
     .prologue
-    .line 27
+    .line 28
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -121,7 +121,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 28
+    .line 29
     return-void
 .end method
 
@@ -131,7 +131,7 @@
     .param p1, "t"    # F
 
     .prologue
-    .line 24
+    .line 25
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -158,7 +158,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 25
+    .line 26
     return-void
 .end method
 
@@ -168,7 +168,7 @@
     .param p1, "t"    # I
 
     .prologue
-    .line 18
+    .line 19
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -195,7 +195,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 19
+    .line 20
     return-void
 .end method
 
@@ -205,7 +205,7 @@
     .param p1, "t"    # J
 
     .prologue
-    .line 21
+    .line 22
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -232,7 +232,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 22
+    .line 23
     return-void
 .end method
 
@@ -242,7 +242,7 @@
     .param p1, "t"    # Ljava/lang/String;
 
     .prologue
-    .line 36
+    .line 37
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -269,7 +269,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 37
+    .line 38
     return-void
 .end method
 
@@ -279,7 +279,7 @@
     .param p1, "t"    # S
 
     .prologue
-    .line 15
+    .line 16
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -306,7 +306,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 16
+    .line 17
     return-void
 .end method
 
@@ -316,7 +316,7 @@
     .param p1, "t"    # Z
 
     .prologue
-    .line 30
+    .line 31
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -343,7 +343,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 31
+    .line 32
     return-void
 .end method
 
@@ -353,7 +353,7 @@
     .param p1, "t"    # [B
 
     .prologue
-    .line 42
+    .line 43
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -384,7 +384,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 43
+    .line 44
     return-void
 .end method
 
@@ -394,7 +394,7 @@
     .param p1, "t"    # [C
 
     .prologue
-    .line 63
+    .line 64
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -425,7 +425,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 64
+    .line 65
     return-void
 .end method
 
@@ -435,7 +435,7 @@
     .param p1, "t"    # [D
 
     .prologue
-    .line 57
+    .line 58
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -466,7 +466,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 58
+    .line 59
     return-void
 .end method
 
@@ -476,7 +476,7 @@
     .param p1, "t"    # [F
 
     .prologue
-    .line 54
+    .line 55
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -507,7 +507,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 55
+    .line 56
     return-void
 .end method
 
@@ -517,7 +517,7 @@
     .param p1, "t"    # [I
 
     .prologue
-    .line 48
+    .line 49
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -548,7 +548,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 49
+    .line 50
     return-void
 .end method
 
@@ -558,7 +558,7 @@
     .param p1, "t"    # [J
 
     .prologue
-    .line 51
+    .line 52
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -589,7 +589,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 52
+    .line 53
     return-void
 .end method
 
@@ -599,7 +599,7 @@
     .param p1, "t"    # [Ljava/lang/String;
 
     .prologue
-    .line 66
+    .line 67
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -630,7 +630,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 67
+    .line 68
     return-void
 .end method
 
@@ -640,7 +640,7 @@
     .param p1, "t"    # [S
 
     .prologue
-    .line 45
+    .line 46
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -671,7 +671,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 46
+    .line 47
     return-void
 .end method
 
@@ -681,7 +681,7 @@
     .param p1, "t"    # [Z
 
     .prologue
-    .line 60
+    .line 61
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -712,7 +712,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 61
+    .line 62
     return-void
 .end method
 
@@ -721,7 +721,7 @@
     .param p0, "t"    # Ljava/lang/String;
 
     .prologue
-    .line 71
+    .line 72
     const-string v0, "[vsnake-java]"
 
     new-instance v1, Ljava/lang/StringBuilder;
@@ -750,7 +750,7 @@
 
     invoke-static {v0, v1}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
-    .line 72
+    .line 73
     return-void
 .end method
 
@@ -769,19 +769,19 @@
     .end annotation
 
     .prologue
-    .line 74
+    .line 75
     .local p1, "c":Ljava/util/Collection;, "Ljava/util/Collection<Ljava/lang/Object;>;"
     const/4 v2, 0x0
 
-    .line 75
+    .line 76
     .local v2, "str":Ljava/lang/String;
     if-nez p1, :cond_1
 
-    .line 83
+    .line 84
     :cond_0
     return-void
 
-    .line 78
+    .line 79
     :cond_1
     invoke-interface {p1}, Ljava/util/Collection;->iterator()Ljava/util/Iterator;
 
@@ -795,18 +795,18 @@
 
     if-eqz v3, :cond_0
 
-    .line 79
+    .line 80
     invoke-interface {v0}, Ljava/util/Iterator;->next()Ljava/lang/Object;
 
     move-result-object v1
 
-    .line 80
+    .line 81
     .local v1, "obj":Ljava/lang/Object;
     if-nez v1, :cond_2
 
     const-string v2, ""
 
-    .line 81
+    .line 82
     :goto_1
     const-string v3, "[vsnake-java]"
 
@@ -832,15 +832,139 @@
 
     move-result-object v4
 
-    invoke-static {v3, v4}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+    invoke-static {v3, v4}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
 
     goto :goto_0
 
-    .line 80
+    .line 81
     :cond_2
     invoke-virtual {v1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v2
 
     goto :goto_1
+.end method
+
+.method public static printObject(Ljava/lang/String;Ljava/lang/Object;)V
+    .locals 4
+    .param p0, "msg"    # Ljava/lang/String;
+    .param p1, "obj"    # Ljava/lang/Object;
+
+    .prologue
+    .line 86
+    const/4 v0, 0x0
+
+    .line 87
+    .local v0, "str":Ljava/lang/String;
+    if-nez p1, :cond_0
+
+    .line 88
+    const-string v0, "null"
+
+    .line 99
+    .end local p1    # "obj":Ljava/lang/Object;
+    :goto_0
+    const-string v1, "[vsnake-java]"
+
+    new-instance v2, Ljava/lang/StringBuilder;
+
+    invoke-static {p0}, Ljava/lang/String;->valueOf(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v3
+
+    invoke-direct {v2, v3}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    const-string v3, " = "
+
+    invoke-virtual {v2, v3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2, v0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    move-result-object v2
+
+    invoke-virtual {v2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v2
+
+    invoke-static {v1, v2}, Landroid/util/Log;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    .line 100
+    return-void
+
+    .line 89
+    .restart local p1    # "obj":Ljava/lang/Object;
+    :cond_0
+    instance-of v1, p1, Ljava/lang/Byte;
+
+    if-nez v1, :cond_1
+
+    instance-of v1, p1, Ljava/lang/Short;
+
+    if-nez v1, :cond_1
+
+    instance-of v1, p1, Ljava/lang/Integer;
+
+    if-nez v1, :cond_1
+
+    .line 90
+    instance-of v1, p1, Ljava/lang/Long;
+
+    if-nez v1, :cond_1
+
+    instance-of v1, p1, Ljava/lang/Float;
+
+    if-nez v1, :cond_1
+
+    instance-of v1, p1, Ljava/lang/Double;
+
+    if-nez v1, :cond_1
+
+    .line 91
+    instance-of v1, p1, Ljava/lang/Boolean;
+
+    if-nez v1, :cond_1
+
+    instance-of v1, p1, Ljava/lang/Character;
+
+    if-nez v1, :cond_1
+
+    .line 92
+    instance-of v1, p1, Ljava/lang/String;
+
+    if-eqz v1, :cond_2
+
+    .line 93
+    :cond_1
+    invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    .line 94
+    :cond_2
+    instance-of v1, p1, Ljava/io/File;
+
+    if-eqz v1, :cond_3
+
+    .line 95
+    check-cast p1, Ljava/io/File;
+
+    .end local p1    # "obj":Ljava/lang/Object;
+    invoke-virtual {p1}, Ljava/io/File;->getAbsolutePath()Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
+
+    .line 97
+    .restart local p1    # "obj":Ljava/lang/Object;
+    :cond_3
+    invoke-static {p1}, Lvsnake/wubainian/utils/print/PrintDetail;->getObjectStr(Ljava/lang/Object;)Ljava/lang/String;
+
+    move-result-object v0
+
+    goto :goto_0
 .end method

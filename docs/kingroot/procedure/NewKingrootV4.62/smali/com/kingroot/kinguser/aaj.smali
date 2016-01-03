@@ -84,6 +84,16 @@
 
     .line 41
     :goto_0
+
+    #gl add
+    const-string v0, "aaj.<init> : param"
+    invoke-static {v0, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v0, "aaj.<init> : props"
+    iget-object v1, p0, Lcom/kingroot/kinguser/aaj;->vy:Ljava/util/Properties;
+    invoke-static {v0, v1}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V 
+    #gl end
+    
     return-void
 
     .line 35

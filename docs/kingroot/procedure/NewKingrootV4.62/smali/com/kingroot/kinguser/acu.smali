@@ -320,9 +320,13 @@
 .end method
 
 .method private a(Lcom/kingroot/kinguser/acx;J)Lcom/kingroot/kinguser/acw;
-    .locals 8
+    #.locals 8
+    .locals 10
 
     .prologue
+
+    
+
     const/4 v0, 0x1
 
     const/4 v1, 0x0
@@ -412,6 +416,11 @@
 
     invoke-direct {v4, v1}, Ljava/lang/String;-><init>([B)V
 
+    #gl add
+    const-string v8, "acu.a : acw.<init>1 param3 original"
+    #invoke-static {v8, v4}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
+
     .line 282
     new-instance v5, Ljava/lang/String;
 
@@ -461,6 +470,52 @@
     move-result-object v0
 
     invoke-direct {v1, v0}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
+
+    #gl add
+    const-string v8, "acu.a : param1"
+    invoke-static {v8, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->printObject(Ljava/lang/String;Ljava/lang/Object;)V
+    
+    const-string v8, "tm.dex"
+    iget-object v9, p1, Lcom/kingroot/kinguser/acx;->Hh:Ljava/lang/String;
+    invoke-static {v9, v8}, Lvsnake/wubainian/utils/simple/StringHelper;->isStrIgnoreCaseContains(Ljava/lang/String;Ljava/lang/String;)Z
+    move-result v9
+    if-eqz v9, :cond_gl_0
+
+    const-string v8, "acu.a : hit it"
+    const-string v9, "0"
+    invoke-static {v8, v9}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v8, "com.kingroot.kinguser.TellMe"
+    iget-object v9, p1, Lcom/kingroot/kinguser/acx;->Hl:Ljava/lang/String;
+    invoke-static {v9, v8}, Lvsnake/wubainian/utils/simple/StringHelper;->isStrIgnoreCaseContains(Ljava/lang/String;Ljava/lang/String;)Z
+    move-result v9
+    if-eqz v9, :cond_gl_0
+
+    const-string v8, "acu.a : hit it"
+    const-string v9, "1"
+    invoke-static {v8, v9}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    invoke-virtual {v1}, Ljava/lang/String;->trim()Ljava/lang/String;
+    move-result-object v8
+    invoke-virtual {v8}, Ljava/lang/String;->length()I
+    move-result v8
+    const/16 v9, 0x20
+    if-ne v8, v9, :cond_gl_0
+
+    const-string v8, "acu.a : hit it"
+    const-string v9, "yes"
+    invoke-static {v8, v9}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v8, "191240FCB048127DB9110D1B30537FDE"
+
+    new-instance v1, Ljava/lang/String;
+    invoke-direct {v1, v8}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
+ 
+    :cond_gl_0
+    const-string v8, "acu.a : acw.<init>1 param3"
+    invoke-static {v8, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     .line 289
     new-instance v0, Lcom/kingroot/kinguser/acw;
@@ -547,6 +602,15 @@
     move-result-object v0
 
     invoke-direct {v3, v0}, Ljava/lang/String;-><init>(Ljava/lang/String;)V
+
+    #gl add
+    const-string v8, "acu.a : param1"
+    invoke-static {v8, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->printObject(Ljava/lang/String;Ljava/lang/Object;)V
+    
+
+    const-string v8, "acu.a : acw.<init>2 param3"
+    invoke-static {v8, v3}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
 
     .line 298
     new-instance v0, Lcom/kingroot/kinguser/acw;

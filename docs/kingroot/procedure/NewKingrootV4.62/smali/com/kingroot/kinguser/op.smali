@@ -131,7 +131,8 @@
 .end method
 
 .method private static fX()Ljava/lang/String;
-    .locals 3
+    #.locals 3
+    .locals 5
 
     .prologue
     .line 86
@@ -148,6 +149,12 @@
 
     .line 114
     :goto_0
+
+    #gl add
+    const-string v3, "op.fx : res"
+    invoke-static {v3, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
+
     return-object v0
 
     .line 94
@@ -168,6 +175,11 @@
 
     move-result-object v0
 
+    #gl add
+    const-string v3, "op.fx : ace.bk"
+    invoke-static {v3, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
+
     .line 99
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -182,6 +194,11 @@
 
     move-result-object v0
 
+    #gl add
+    const-string v3, "op.fx : ace.du"
+    invoke-static {v3, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
+
     .line 102
     invoke-static {v0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -193,6 +210,11 @@
     invoke-static {}, Lcom/kingroot/kinguser/ace;->mt()Ljava/lang/String;
 
     move-result-object v0
+
+    #gl add
+    const-string v3, "op.fx : ace.mt"
+    invoke-static {v3, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
 
     .line 109
     :cond_1

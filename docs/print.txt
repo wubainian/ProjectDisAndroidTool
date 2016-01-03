@@ -20,3 +20,4 @@ invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/la
 
 invoke-static {v5}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->printCollection(Ljava/lang/String;Ljava/util/Collection;)V
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->printObject(Ljava/lang/String;Ljava/lang/Object;)V

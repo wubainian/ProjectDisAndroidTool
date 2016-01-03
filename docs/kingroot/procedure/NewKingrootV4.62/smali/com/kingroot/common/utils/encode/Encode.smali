@@ -21,7 +21,8 @@
 .end method
 
 .method public static c(Landroid/content/Context;[B)[B
-    .locals 1
+    #.locals 1
+    .locals 3
 
     .prologue
     .line 27
@@ -34,15 +35,32 @@
 
     .line 30
     :cond_0
+
+    #gl add
+
+    const-string v1, "Lcom/kingroot/common/utils/encode/Encode;->x : native"
+    invoke-static {v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
+
     invoke-static {p0, p1}, Lcom/kingroot/common/utils/encode/Encode;->x(Landroid/content/Context;[B)[B
 
     move-result-object v0
+
+    #gl add
+
+    const-string v1, "Lcom/kingroot/common/utils/encode/Encode;->x : native"
+    const-string v2, "end"
+    invoke-static {v1, v2}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     return-object v0
 .end method
 
 .method public static d(Landroid/content/Context;[B)[B
-    .locals 1
+    #.locals 1
+    .locals 3
 
     .prologue
     .line 42
@@ -55,9 +73,25 @@
 
     .line 45
     :cond_0
+
+    #gl add
+
+    const-string v1, "Lcom/kingroot/common/utils/encode/Encode;->y : native"
+    invoke-static {v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
+
     invoke-static {p0, p1}, Lcom/kingroot/common/utils/encode/Encode;->y(Landroid/content/Context;[B)[B
 
     move-result-object v0
+
+    #gl add
+
+    const-string v1, "Lcom/kingroot/common/utils/encode/Encode;->y : native"
+    const-string v2, "end"
+    invoke-static {v1, v2}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    
+    #gl end
 
     return-object v0
 .end method

@@ -25,7 +25,7 @@
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
     .line 13
-    const v1, 0x7f030018
+    const/high16 v1, 0x7f030000
 
     invoke-virtual {p0, v1}, Lvsnake/wubainian/MainActivity;->setContentView(I)V
 

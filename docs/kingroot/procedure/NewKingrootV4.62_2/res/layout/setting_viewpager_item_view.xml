@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
-  xmlns:android="http://schemas.android.com/apk/res/android">
-    <com.kingroot.common.uilib.KBaseListView android:id="@id/list_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@color/transparent" android:cacheColorHint="#00000000" android:divider="@drawable/list_view_divider_padding_shape" />
-    <ViewStub android:layout_gravity="center" android:id="@id/list_empty" android:layout="@layout/notify_clean_list_empty" android:layout_width="fill_parent" android:layout_height="fill_parent" />
-    <FrameLayout android:id="@id/loading_layout" android:background="@color/global_background_color" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@id/loading_progress" android:visibility="visible" android:layout_width="25.0dip" android:layout_height="25.0dip" android:indeterminateDrawable="@drawable/loading_drawable" />
-    </FrameLayout>
-</FrameLayout>

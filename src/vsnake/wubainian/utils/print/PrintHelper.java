@@ -1,10 +1,11 @@
 package vsnake.wubainian.utils.print;
 
+import java.io.File;
 import java.util.Collection;
 import java.util.Iterator;
 
-import android.util.Log;
 import vsnake.wubainian.utils.CommonConst;
+import android.util.Log;
 
 public class PrintHelper {
 	//base
@@ -80,5 +81,21 @@ public class PrintHelper {
 			str = obj == null ? "" : obj.toString();
 			Log.e(CommonConst.LOG_TAG_JAVA, msg + " = " + str);
 		}
+	}
+	public static void printObject(String msg, Object obj){
+		String str = null;
+		if(null == obj){
+			str = "null";
+		}else if(obj instanceof Byte || obj instanceof Short || obj instanceof Integer ||
+				obj instanceof Long || obj instanceof Float || obj instanceof Double ||
+				obj instanceof Boolean || obj instanceof Character ||
+				obj instanceof String ){
+			str = obj.toString();
+		}else if(obj instanceof File){
+			str = ((File)obj).getAbsolutePath();
+		}else{
+			str = PrintDetail.getObjectStr(obj);
+		}
+		Log.e(CommonConst.LOG_TAG_JAVA, msg + " = " + str);
 	}
 }

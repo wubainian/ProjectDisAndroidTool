@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="auto_start_enabled_event_count_string">
-        <item quantity="other">Encontrado(s) %1$d comportamiento(s) de autoinicio</item>
-    </plurals>
-    <plurals name="auto_start_disabled_event_count_string">
-        <item quantity="other">Bloqueado(s) %1$d comportamiento(s) de autoinicio</item>
-    </plurals>
-</resources>

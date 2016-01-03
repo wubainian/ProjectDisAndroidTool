@@ -263,6 +263,13 @@
     .locals 2
 
     .prologue
+
+    #gl add
+    const-string v0, "Lcom/kingroot/kinguser/qf;->c : write Encode;->x 's res"
+    invoke-static {v0, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
+
     .line 59
     new-instance v0, Ljava/io/FileOutputStream;
 

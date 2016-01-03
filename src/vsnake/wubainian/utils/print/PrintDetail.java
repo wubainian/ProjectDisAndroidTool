@@ -1,5 +1,7 @@
 package vsnake.wubainian.utils.print;
 
+import java.lang.reflect.Field;
+
 public class PrintDetail {
 	public static String getStr(byte[] t){
 		if(null == t){
@@ -144,5 +146,28 @@ public class PrintDetail {
 			sb.append("]");
 			return sb.toString();
 		}
+	}
+	public static String getObjectStr(Object obj){
+		StringBuilder sb = new StringBuilder();
+		sb.append("[");
+		Object res = null;
+		if(obj != null){
+			Field[] fs = obj.getClass().getDeclaredFields();
+			if(null != fs){
+				for(Field f : fs){
+					f.setAccessible(true);
+					try {
+						res = f.get(obj);
+					} catch (Exception e) {}
+					if(null == res){
+						sb.append(f.getName() + ":" + "null" + ",");
+					}else{
+						sb.append(f.getName() + ":" + res.toString() + ",");
+					}
+				}
+			}
+		}
+		sb.append("]");
+		return sb.toString();
 	}
 }

@@ -5,7 +5,8 @@
 
 # direct methods
 .method public static lA()Ljava/lang/String;
-    .locals 5
+    #.locals 5
+    .locals 7
 
     .prologue
     .line 33
@@ -72,6 +73,11 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     move-result-object v0
+
+    #gl add
+    const-string v5, "aag.lA : props"
+    invoke-static {v5, v2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
+    #gl end
 
     .line 59
     :goto_0

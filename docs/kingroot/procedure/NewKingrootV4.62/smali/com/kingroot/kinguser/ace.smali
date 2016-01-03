@@ -136,7 +136,8 @@
 .end method
 
 .method public static bK(I)Ljava/lang/String;
-    .locals 7
+    #.locals 7
+    .locals 9
 
     .prologue
     const/4 v6, 0x0
@@ -193,6 +194,11 @@
 
     move-result-object v2
 
+    #gl add
+    const-string v7, "ace.bk : aep.dm param"
+    invoke-static {v7, v2}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
+
     .line 289
     invoke-virtual {v0, v2}, Lcom/kingroot/kinguser/aep;->dM(Ljava/lang/String;)Lcom/kingroot/kinguser/acw;
 
@@ -207,6 +213,11 @@
 
     .line 291
     iget-object v0, v0, Lcom/kingroot/kinguser/acw;->Hi:Ljava/lang/String;
+
+    #gl add
+    const-string v7, "ace.bk : acw.Hi field"
+    invoke-static {v7, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
 
     invoke-virtual {v0}, Ljava/lang/String;->trim()Ljava/lang/String;
 
