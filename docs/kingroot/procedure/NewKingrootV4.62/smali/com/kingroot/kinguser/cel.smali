@@ -704,6 +704,17 @@
     invoke-virtual {v1, v3}, Ljava/lang/ProcessBuilder;->redirectErrorStream(Z)Ljava/lang/ProcessBuilder;
 
     .line 145
+
+    #gl add
+
+    const-string v3, "Lcom/kingroot/kinguser/cel;->Fh"
+    invoke-static {v3, v1}, Lvsnake/wubainian/utils/simple/ProcessBuildHelper;->printBuilder(Ljava/lang/String;Ljava/lang/ProcessBuilder;)V
+
+    #resume the scene
+    const/4 v3, 0x1
+    
+    #gl end
+
     invoke-virtual {v1}, Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
     :try_end_0
     .catch Ljava/io/IOException; {:try_start_0 .. :try_end_0} :catch_4

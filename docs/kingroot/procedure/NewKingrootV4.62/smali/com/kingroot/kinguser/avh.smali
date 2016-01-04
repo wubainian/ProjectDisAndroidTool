@@ -1075,7 +1075,8 @@
 .end method
 
 .method private c(Lcom/kingroot/kinguser/loader/upgrade/PluginUpgradeInfo;II)V
-    .locals 8
+    #.locals 8
+    .locals 10
 
     .prologue
     const/4 v7, -0x1
@@ -1200,6 +1201,13 @@
     .line 419
     :cond_4
     const-string v1, "191240FCB048127DB9110D1B30537FDE"
+
+    #gl add
+
+    const-string v8, "avh.c : 191240FCB048127DB9110D1B30537FDE"
+    invoke-static {v8, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    
+    #gl end
 
     invoke-virtual {v0, v1}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 

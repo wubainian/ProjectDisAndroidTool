@@ -218,7 +218,8 @@
 .end method
 
 .method public static FL()Ljava/lang/String;
-    .locals 3
+    #.locals 3
+    .locals 5
 
     .prologue
     .line 102
@@ -228,6 +229,13 @@
     move-result-object v0
 
     const-string v1, "service list"
+
+    #gl add
+
+    const-string v3, "Lcom/kingroot/kinguser/cgt;->FL : Runtime.exec"
+    invoke-static {v3, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     invoke-virtual {v0, v1}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
 

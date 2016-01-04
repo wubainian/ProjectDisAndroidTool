@@ -154,6 +154,13 @@
 
     invoke-direct {v2}, Ljava/util/Properties;-><init>()V
 
+    #gl add
+
+    invoke-static {v2}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v2
+
+    #gl end
+
     .line 67
     if-eqz v1, :cond_3
 
@@ -163,13 +170,6 @@
     invoke-direct {v3, v1}, Ljava/io/ByteArrayInputStream;-><init>([B)V
 
     invoke-virtual {v2, v3}, Ljava/util/Properties;->load(Ljava/io/InputStream;)V
-
-    #gl add
-
-    const-string v6, "Lcom/kingroot/kinguser/apt;-><init>()V : Encode;->y 's res : props"
-    invoke-static {v6, v2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
-
-    #gl end
 
     .line 70
     const-string v1, "channel"

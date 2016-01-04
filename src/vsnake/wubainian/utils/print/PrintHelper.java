@@ -3,9 +3,12 @@ package vsnake.wubainian.utils.print;
 import java.io.File;
 import java.util.Collection;
 import java.util.Iterator;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
-import vsnake.wubainian.utils.CommonConst;
 import android.util.Log;
+import vsnake.wubainian.utils.CommonConst;
 
 public class PrintHelper {
 	//base
@@ -79,6 +82,17 @@ public class PrintHelper {
 		for(Iterator<Object> iter = c.iterator(); iter.hasNext(); ){
 			Object obj = iter.next();
 			str = obj == null ? "" : obj.toString();
+			Log.e(CommonConst.LOG_TAG_JAVA, msg + " = " + str);
+		}
+	}
+	public static void printMap(String msg, Map<Object, Object> map){
+		String str = null;
+		if(null == map){
+			return;
+		}
+		Set<Entry<Object, Object>> set = map.entrySet();
+		for(Entry<Object, Object> entry : set){
+			str = entry.getKey() + " : " + entry.getValue();
 			Log.e(CommonConst.LOG_TAG_JAVA, msg + " = " + str);
 		}
 	}

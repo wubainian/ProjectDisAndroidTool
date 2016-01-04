@@ -1370,7 +1370,8 @@
 .end method
 
 .method private t(Ljava/io/File;)Z
-    .locals 3
+    #.locals 3
+    .locals 5
 
     .prologue
     const/4 v0, 0x0
@@ -1414,6 +1415,13 @@
 
     .line 1007
     const-string v0, "191240FCB048127DB9110D1B30537FDE"
+
+    #gl add
+
+    const-string v3, "aib.t : 191240FCB048127DB9110D1B30537FDE"
+    invoke-static {v3, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    
+    #gl end
 
     invoke-virtual {v1, v0}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 

@@ -76,7 +76,8 @@
 .end method
 
 .method public constructor <init>(Ljava/lang/String;)V
-    .locals 4
+    #.locals 4
+    .locals 6
 
     .prologue
     .line 62
@@ -161,6 +162,13 @@
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v0
+
+    #gl add
+
+    const-string v5, "Lcom/kingroot/kinguser/acu;-><init> : Runtime.exec"
+    invoke-static {v5, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     invoke-virtual {v0, p1}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
 
@@ -851,7 +859,8 @@
 .end method
 
 .method public declared-synchronized b(Lcom/kingroot/kinguser/acx;)Lcom/kingroot/kinguser/acw;
-    .locals 10
+    #.locals 10
+    .locals 12
 
     .prologue
     const-wide/16 v2, 0x0
@@ -944,6 +953,13 @@
     .line 222
     iget-object v1, p0, Lcom/kingroot/kinguser/acu;->GZ:Ljava/io/DataOutputStream;
 
+    #gl add
+
+    const-string v10, "Lcom/kingroot/kinguser/acu;->b : DataOutputStream.write"
+    invoke-static {v10, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
+
     invoke-virtual {v0}, Ljava/lang/String;->getBytes()[B
 
     move-result-object v0
@@ -980,6 +996,13 @@
     iget-object v0, p0, Lcom/kingroot/kinguser/acu;->GZ:Ljava/io/DataOutputStream;
 
     sget-object v1, Lcom/kingroot/kinguser/acu;->GS:Ljava/lang/String;
+
+    #gl add
+
+    const-string v10, "Lcom/kingroot/kinguser/acu;->b : DataOutputStream.writeBytes"
+    invoke-static {v10, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     invoke-virtual {v0, v1}, Ljava/io/DataOutputStream;->writeBytes(Ljava/lang/String;)V
 

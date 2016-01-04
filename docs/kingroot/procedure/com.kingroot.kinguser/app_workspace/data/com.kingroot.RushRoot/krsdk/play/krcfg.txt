@@ -1,0 +1,7 @@
+ver:00001
+c:/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcert.jar
+mydir:/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play
+rmode:2
+kddir:/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk
+apkdir:/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play
+kdcert:/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert

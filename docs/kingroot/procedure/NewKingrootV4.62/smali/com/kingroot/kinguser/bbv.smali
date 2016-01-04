@@ -447,7 +447,8 @@
 .end method
 
 .method private xO()V
-    .locals 5
+    #.locals 5
+    .locals 7
 
     .prologue
     const/4 v4, 0x1
@@ -530,6 +531,13 @@
     .line 515
     :cond_2
     const-string v2, "191240FCB048127DB9110D1B30537FDE"
+
+    #gl add
+
+    const-string v5, "bbv.xO : 191240FCB048127DB9110D1B30537FDE"
+    invoke-static {v5, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    
+    #gl end
 
     invoke-virtual {v0, v2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 

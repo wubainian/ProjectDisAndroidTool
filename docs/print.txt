@@ -6,7 +6,6 @@ invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/la
 invoke-static {v5, v6, v7}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;D)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;B)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;C)V
-invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
 
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;[B)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;[S)V
@@ -16,8 +15,11 @@ invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/la
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;[D)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;[B)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;[C)V
+
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;[Ljava/lang/String;)V
 
 invoke-static {v5}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->printCollection(Ljava/lang/String;Ljava/util/Collection;)V
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->static printMap(Ljava/lang/String;Ljava/util/Map;)V
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/print/PrintHelper;->printObject(Ljava/lang/String;Ljava/lang/Object;)V

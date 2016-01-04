@@ -23,7 +23,8 @@
 
 # direct methods
 .method public constructor <init>(Ljava/lang/String;)V
-    .locals 4
+    #.locals 4
+    .locals 6
 
     .prologue
     .line 59
@@ -108,6 +109,13 @@
     invoke-static {}, Ljava/lang/Runtime;->getRuntime()Ljava/lang/Runtime;
 
     move-result-object v0
+
+    #gl add
+
+    const-string v4, "Lcom/kingroot/kinguser/eu;-><init> : Runtime.exec"
+    invoke-static {v4, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     invoke-virtual {v0, p1}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
 
@@ -717,7 +725,8 @@
 .end method
 
 .method public declared-synchronized b(Lcom/kingroot/kinguser/ex;)Lcom/kingroot/kinguser/ew;
-    .locals 10
+    #.locals 10
+    .locals 12
 
     .prologue
     const-wide/16 v2, 0x0
@@ -808,6 +817,13 @@
     invoke-virtual {v1}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
+
+    #gl add
+
+    const-string v10, "Lcom/kingroot/kinguser/eu;->b : DataOutputStream.writeBytes"
+    invoke-static {v10, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     invoke-virtual {v0, v1}, Ljava/io/DataOutputStream;->writeBytes(Ljava/lang/String;)V
 

@@ -1,0 +1,10 @@
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/StringHelper;->isStrContains(Ljava/lang/String;Ljava/lang/String;)Z
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/StringHelper;->isStrEq(Ljava/lang/String;Ljava/lang/String;)Z
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/StringHelper;->isStrIgnoreCaseContains(Ljava/lang/String;Ljava/lang/String;)Z
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/StringHelper;->isStrIgnoreCaseEq(Ljava/lang/String;Ljava/lang/String;)Z
+
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/FileHelper;->printFile(Ljava/lang/String;Ljava/io/File;)V
+
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/ProcessBuildHelper;->printBuilder(Ljava/lang/String;Ljava/lang/ProcessBuilder;)V
+
+

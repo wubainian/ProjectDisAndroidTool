@@ -1768,7 +1768,8 @@
 .end method
 
 .method public c(Ljava/io/File;Ljava/lang/String;)Z
-    .locals 3
+    #.locals 3
+    .locals 5
 
     .prologue
     const/4 v0, 0x0
@@ -1817,6 +1818,14 @@
     if-nez v2, :cond_0
 
     .line 794
+
+    #gl add
+
+    const-string v3, "aqf.c : 191240FCB048127DB9110D1B30537FDE"
+    invoke-static {v3, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+    
+    #gl end
+
     invoke-virtual {v1, p2}, Ljava/lang/String;->equalsIgnoreCase(Ljava/lang/String;)Z
 
     move-result v0

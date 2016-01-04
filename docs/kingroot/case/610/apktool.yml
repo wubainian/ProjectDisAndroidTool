@@ -1,0 +1,4 @@
+version: 2.0.0-RC2
+apkFileName: 610.apk
+unknownFiles:
+  krmain: '8'

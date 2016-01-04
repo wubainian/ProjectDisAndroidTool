@@ -1,1 +1,0 @@
-invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/FileHelper;->printFile(Ljava/lang/String;Ljava/io/File;)V

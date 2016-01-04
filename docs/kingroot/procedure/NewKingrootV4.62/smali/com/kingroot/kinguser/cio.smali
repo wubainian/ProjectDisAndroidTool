@@ -47,7 +47,8 @@
 .end method
 
 .method static b()I
-    .locals 6
+    #.locals 6
+    .locals 8
 
     const/4 v0, 0x0
 
@@ -73,6 +74,13 @@
     new-instance v3, Ljava/lang/ProcessBuilder;
 
     invoke-direct {v3, v2}, Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
+
+    #gl add
+
+    const-string v6, "Lcom/kingroot/kinguser/cio;->b"
+    invoke-static {v6, v3}, Lvsnake/wubainian/utils/simple/ProcessBuildHelper;->printBuilder(Ljava/lang/String;Ljava/lang/ProcessBuilder;)V
+    
+    #gl end
 
     invoke-virtual {v3}, Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
 
@@ -159,7 +167,8 @@
 .end method
 
 .method static c()I
-    .locals 6
+    #.locals 6
+   .locals 8
 
     const/4 v0, 0x0
 
@@ -185,6 +194,13 @@
     new-instance v3, Ljava/lang/ProcessBuilder;
 
     invoke-direct {v3, v2}, Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
+
+    #gl add
+
+    const-string v6, "Lcom/kingroot/kinguser/cio;->c"
+    invoke-static {v6, v3}, Lvsnake/wubainian/utils/simple/ProcessBuildHelper;->printBuilder(Ljava/lang/String;Ljava/lang/ProcessBuilder;)V
+    
+    #gl end
 
     invoke-virtual {v3}, Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
 

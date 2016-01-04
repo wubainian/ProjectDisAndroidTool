@@ -862,6 +862,13 @@
 
     invoke-direct {v2}, Ljava/util/Properties;-><init>()V
 
+    #gl add
+
+    invoke-static {v2}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v2
+
+    #gl end
+
     .line 459
     const-string v0, "S01"
 
@@ -3281,6 +3288,13 @@
     new-instance v1, Ljava/util/Properties;
 
     invoke-direct {v1}, Ljava/util/Properties;-><init>()V
+
+    #gl add
+
+    invoke-static {v1}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v1
+
+    #gl end
 
     .line 1461
     const/4 v2, 0x0

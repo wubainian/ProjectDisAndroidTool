@@ -861,7 +861,8 @@
 .end method
 
 .method public static la()Ljava/lang/String;
-    .locals 5
+    #.locals 5
+    .locals 7
 
     .prologue
     .line 105
@@ -893,6 +894,14 @@
     invoke-direct {v2, v1}, Ljava/lang/ProcessBuilder;-><init>([Ljava/lang/String;)V
 
     .line 111
+
+    #gl add
+
+    const-string v6, "Lcom/kingroot/kinguser/zb;->la"
+    invoke-static {v6, v2}, Lvsnake/wubainian/utils/simple/ProcessBuildHelper;->printBuilder(Ljava/lang/String;Ljava/lang/ProcessBuilder;)V
+    
+    #gl end
+
     invoke-virtual {v2}, Ljava/lang/ProcessBuilder;->start()Ljava/lang/Process;
 
     move-result-object v1

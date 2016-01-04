@@ -29,6 +29,13 @@
 
     invoke-direct {v2}, Ljava/util/Properties;-><init>()V
 
+    #gl add
+
+    invoke-static {v2}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v2
+
+    #gl end
+
     .line 49
     sget-object v3, Lcom/kingroot/kinguser/abd;->FQ:Lcom/kingroot/kinguser/abd;
 
@@ -73,11 +80,6 @@
     .catch Ljava/lang/Exception; {:try_start_0 .. :try_end_0} :catch_0
 
     move-result-object v0
-
-    #gl add
-    const-string v5, "aag.lA : props"
-    invoke-static {v5, v2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
-    #gl end
 
     .line 59
     :goto_0

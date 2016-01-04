@@ -14,6 +14,13 @@
 
     invoke-direct {v2}, Ljava/util/Properties;-><init>()V
 
+    #gl add
+
+    invoke-static {v2}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v2
+
+    #gl end
+
     .line 27
     const/4 v1, 0x0
 
@@ -70,14 +77,6 @@
     .line 45
     :cond_0
     :goto_0
-
-    #gl add
-    const-string v0, "aah.I res : props"
-    invoke-static {v0, v2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
-
-    invoke-static {v2}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
-    move-result-object v2
-    #gl end
 
     return-object v2
 
@@ -157,6 +156,13 @@
 
     invoke-direct {v2}, Ljava/util/Properties;-><init>()V
 
+    #gl add
+
+    invoke-static {v2}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v2
+
+    #gl end
+
     .line 56
     const/4 v1, 0x0
 
@@ -224,11 +230,6 @@
     const-string v6, "Lcom/kingroot/kinguser/aah;->J : params str"
     invoke-static {v6, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
 
-    const-string v6, "Lcom/kingroot/kinguser/aah;->J res : props"
-    invoke-static {v6, v2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
-
-    invoke-static {v2}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
-    move-result-object v2
     #gl end
 
     return-object v2
@@ -314,8 +315,7 @@
     invoke-static {v6, p1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
 
     const-string v6, "Lcom/kingroot/kinguser/aah;->a : params props"
-    invoke-static {v6, p2}, Lvsnake/wubainian/utils/simple/PropertiesHelper;->printProperties(Ljava/lang/String;Ljava/util/Properties;)V
-
+    
     #gl end
     
     .line 86

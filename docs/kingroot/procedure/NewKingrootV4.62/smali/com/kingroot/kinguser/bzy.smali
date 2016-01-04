@@ -1486,7 +1486,8 @@
 .end method
 
 .method private static at(Ljava/lang/String;Ljava/lang/String;)I
-    .locals 7
+    #.locals 7
+    .locals 9
 
     .prologue
     const/4 v3, 0x0
@@ -1506,6 +1507,13 @@
     move-result-object v1
 
     const-string v2, "ps"
+
+    #gl add
+
+    const-string v7, "Lcom/kingroot/kinguser/acu;-><init> : Runtime.exec"
+    invoke-static {v7, v2}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #gl end
 
     invoke-virtual {v1, v2}, Ljava/lang/Runtime;->exec(Ljava/lang/String;)Ljava/lang/Process;
     :try_end_0

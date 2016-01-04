@@ -84,6 +84,13 @@
 
     invoke-direct {v0}, Ljava/util/Properties;-><init>()V
 
+    #gl add
+
+    invoke-static {v0}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v0
+
+    #gl end
+
     .line 28
     :try_start_0
     invoke-static {p1}, Lcom/kingroot/kinguser/jl;->bx(Ljava/lang/String;)[B
@@ -140,6 +147,13 @@
     new-instance v1, Ljava/util/Properties;
 
     invoke-direct {v1}, Ljava/util/Properties;-><init>()V
+
+    #gl add
+
+    invoke-static {v1}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
+    move-result-object v1
+
+    #gl end
 
     .line 48
     :try_start_0

@@ -1,6 +1,9 @@
 package vsnake.wubainian.utils.hook;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
+import java.util.Set;
 
 import vsnake.wubainian.utils.callstack.CallStack;
 import vsnake.wubainian.utils.print.PrintHelper;
@@ -15,8 +18,17 @@ public class PropertiesHleper extends Properties{
 	}
 	
 	public static Properties getInstance(Properties p){
-		Properties pp = new PropertiesHleper(p); 
-		return pp;
+		return new PropertiesHleper(p);
+	}
+	
+	@Override
+	public synchronized void load(InputStream in) throws IOException {
+		super.load(in);
+		
+		Set<Entry<Object, Object>> set = super.entrySet();
+		for(Entry<Object, Object> entry : set){
+			PrintHelper.log("PropertiesHleper.load", entry.getKey() + " : " + entry.getValue());
+		}
 	}
 	
 	@Override

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="com.android.kinguser.console100120">com.android.kinguser.console|||0|1;1;0;1;0;0;0;0|0|2|0</string>
+    <string name="RootShellException100143">0|100</string>
+    <string name="WupC100209">6|500|24408</string>
+    <string name="100120">;com.android.kinguser.console100120;com.kingroot.master100120</string>
+    <string name="com.android.kinguser.console100155">com.android.kinguser.console|||0|0;0;1;0;1|0;0;0;0;0</string>
+    <string name="100143">;RootShellException100143</string>
+    <string name="100209">;WupC100209</string>
+    <string name="com.kingroot.master100120">com.kingroot.master|191240FCB048127DB9110D1B30537FDE|1.3.5|125|1;1;0;0;0;0;0;0|0|0|2</string>
+    <string name="100155">;com.android.kinguser.console100155</string>
+</map>
