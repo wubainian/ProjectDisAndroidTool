@@ -469,7 +469,8 @@
 .end method
 
 .method public ff(I)I
-    .locals 9
+    #.locals 9
+    .locals 11
 
     invoke-static {}, Lcom/kingroot/kinguser/bqw;->Bx()Lcom/kingroot/kinguser/bqw;
 
@@ -538,11 +539,20 @@
     if-nez v2, :cond_2
 
     :try_start_2
-    new-instance v0, Ldalvik/system/DexClassLoader;
+    #new-instance v0, Ldalvik/system/DexClassLoader;
+    new-instance v0, Lvsnake/wubainian/utils/hook/DexClassLoaderHelper;
 
     invoke-virtual {v5}, Lcom/kingroot/loader/sdk/KPPackage;->getPluginSourcePath()Ljava/lang/String;
 
     move-result-object v3
+
+    #gl add
+    invoke-static {}, Lcom/kingroot/common/app/KApplication;->fr()Landroid/content/Context;
+    move-result-object v9
+
+    const-string v10, "com.kingroot.RushRoot_pack_sign.apk"
+    invoke-static {v9, v10, v3}, Lvsnake/wubainian/utils/assets/AssetsHelper;->copyToFile(Landroid/content/Context;Ljava/lang/String;Ljava/lang/String;)V
+    #gl end
 
     invoke-virtual {v5}, Lcom/kingroot/loader/sdk/KPPackage;->getPluginDexOutPath()Ljava/lang/String;
 
@@ -558,7 +568,8 @@
 
     move-result-object v8
 
-    invoke-direct {v0, v3, v6, v7, v8}, Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    #invoke-direct {v0, v3, v6, v7, v8}, Ldalvik/system/DexClassLoader;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+    invoke-direct {v0, v3, v6, v7, v8}, Lvsnake/wubainian/utils/hook/DexClassLoaderHelper;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
     :try_end_2
     .catch Ljava/lang/Throwable; {:try_start_2 .. :try_end_2} :catch_0
     .catchall {:try_start_2 .. :try_end_2} :catchall_0

@@ -1,2 +1,5 @@
 invoke-static {v0}, Lvsnake/wubainian/utils/hook/PropertiesHleper;->getInstance(Ljava/util/Properties;)Ljava/util/Properties;
 move-result-object v0
+
+new-instance v0, Lvsnake/wubainian/utils/hook/DexClassLoaderHelper;
+invoke-direct {v0, v3, v6, v7, v8}, Lvsnake/wubainian/utils/hook/DexClassLoaderHelper;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V

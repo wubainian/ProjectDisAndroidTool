@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/star0" android:background="@drawable/kr4_star_10" android:layout_width="@dimen/kr4_star_successrate_size" android:layout_height="@dimen/kr4_star_successrate_size" android:layout_marginRight="3.5dip" android:layout_weight="1.0" />
+        <View android:id="@id/star1" android:background="@drawable/kr4_star_10" android:layout_width="@dimen/kr4_star_successrate_size" android:layout_height="@dimen/kr4_star_successrate_size" android:layout_marginRight="3.5dip" android:layout_weight="1.0" />
+        <View android:id="@id/star2" android:background="@drawable/kr4_star_10" android:layout_width="@dimen/kr4_star_successrate_size" android:layout_height="@dimen/kr4_star_successrate_size" android:layout_weight="1.0" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/kr4_content_text" android:textColor="@color/kr4_golden_text" android:id="@id/success_rating_title" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

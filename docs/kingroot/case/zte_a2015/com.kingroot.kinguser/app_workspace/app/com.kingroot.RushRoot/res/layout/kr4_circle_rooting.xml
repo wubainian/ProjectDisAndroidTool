@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/kr4_circle_diameter" android:layout_height="@dimen/kr4_circle_diameter"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.kingroot.RushRoot.views.components.RootingProgressBar android:id="@id/rooting_progress_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="90.0sp" android:textColor="@color/kr4_main_blue" android:id="@id/root_percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_num_00" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/kr4_main_blue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_percentage_label" android:layout_toRightOf="@id/root_percentage" android:layout_alignBaseline="@id/root_percentage" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/kr4_black_text" android:gravity="center_horizontal" android:id="@id/rooting_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_rooting" />
+    </LinearLayout>
+</RelativeLayout>

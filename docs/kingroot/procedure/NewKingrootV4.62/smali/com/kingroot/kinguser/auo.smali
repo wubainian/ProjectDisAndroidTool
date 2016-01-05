@@ -8,6 +8,13 @@
     .locals 2
 
     .prologue
+    #gl add
+
+    const-string v0, "Lcom/kingroot/kinguser/auo;->o : com.kingroot.plugin.function_id"
+    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
+
     .line 56
     const-string v0, "com.kingroot.plugin.function_id"
 

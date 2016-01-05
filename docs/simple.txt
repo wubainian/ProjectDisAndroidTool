@@ -7,4 +7,6 @@ invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/FileHelper;->printFile(Lj
 
 invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/ProcessBuildHelper;->printBuilder(Ljava/lang/String;Ljava/lang/ProcessBuilder;)V
 
+invoke-static {v5, v6}, Lvsnake/wubainian/utils/simple/IntentHelper;->printIntent(Ljava/lang/String;Landroid/content/Intent;)V
+
 

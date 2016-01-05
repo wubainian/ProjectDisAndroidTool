@@ -886,7 +886,8 @@
 .end method
 
 .method public startActivity(Landroid/content/Intent;)V
-    .locals 2
+    #.locals 2
+    .locals 4
 
     .prologue
     .line 257
@@ -913,6 +914,17 @@
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
 
+    #gl add
+    #const-string v2, "Lcom/kingroot/common/uilib/template/BaseActivity;->startActivityForResult : intent : key"
+    #invoke-static {v2, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #const-string v2, "Lcom/kingroot/common/uilib/template/BaseActivity;->startActivityForResult : intent : value"
+    #invoke-static {v2, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v2, "Lcom/kingroot/common/uilib/template/BaseActivity;->startActivity"
+    invoke-static {v2, p1}, Lvsnake/wubainian/utils/simple/IntentHelper;->printIntent(Ljava/lang/String;Landroid/content/Intent;)V
+    #gl end
+    
     .line 263
     :goto_0
     :try_start_0
@@ -942,7 +954,8 @@
 .end method
 
 .method public startActivityForResult(Landroid/content/Intent;I)V
-    .locals 2
+    #.locals 2
+    .locals 4
 
     .prologue
     .line 271
@@ -968,6 +981,18 @@
     move-result-object v1
 
     invoke-virtual {p1, v0, v1}, Landroid/content/Intent;->putExtra(Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;
+
+
+    #gl add
+    #const-string v2, "Lcom/kingroot/common/uilib/template/BaseActivity;->startActivityForResult : intent : key"
+    #invoke-static {v2, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    #const-string v2, "Lcom/kingroot/common/uilib/template/BaseActivity;->startActivityForResult : intent : value"
+    #invoke-static {v2, v1}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;Ljava/lang/String;)V
+
+    const-string v2, "Lcom/kingroot/common/uilib/template/BaseActivity;->startActivityForResult"
+    invoke-static {v2, p1}, Lvsnake/wubainian/utils/simple/IntentHelper;->printIntent(Ljava/lang/String;Landroid/content/Intent;)V
+    #gl end
 
     .line 277
     :goto_0

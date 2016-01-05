@@ -164,6 +164,14 @@
     .locals 1
 
     .prologue
+
+    #gl add
+
+    const-string v0, "Lcom/kingroot/kinguser/aum;->vF : com.kingroot.plugin.function_id"
+    invoke-static {v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
+
     .line 57
     iget v0, p0, Lcom/kingroot/kinguser/aum;->Ws:I
 

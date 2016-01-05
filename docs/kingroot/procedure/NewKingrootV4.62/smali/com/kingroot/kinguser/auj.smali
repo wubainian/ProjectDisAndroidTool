@@ -104,7 +104,8 @@
 .end method
 
 .method public onPluginCall(ILandroid/os/Bundle;Z)Landroid/os/Bundle;
-    .locals 8
+    #.locals 8
+    .locals 10
 
     .prologue
     const/4 v4, 0x2
@@ -121,18 +122,40 @@
 
     move-result v0
 
+    #gl add
+
+    const-string v8, "auj.onPluginCall : com.kingroot.plugin.function_id"
+    invoke-static {v8, v0}, Lvsnake/wubainian/utils/print/PrintHelper;->log(Ljava/lang/String;I)V
+
+    #gl end
+
     packed-switch v0, :pswitch_data_0
 
     :cond_0
     :pswitch_0
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_0"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
+
     move-object v0, v6
 
     .line 186
     :goto_0
+    const-string v8, "auj.onPluginCall res"
+    invoke-static {v8, v0}, Lvsnake/wubainian/utils/simple/IntentHelper;->printBundle(Ljava/lang/String;Landroid/os/Bundle;)V
     return-object v0
 
     .line 47
     :pswitch_1
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_1"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     new-instance v0, Lcom/kingroot/kinguser/aul;
 
     invoke-direct {v0}, Lcom/kingroot/kinguser/aul;-><init>()V
@@ -164,6 +187,12 @@
 
     .line 55
     :pswitch_2
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_2"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     new-instance v0, Lcom/kingroot/kinguser/auk;
 
     invoke-direct {v0}, Lcom/kingroot/kinguser/auk;-><init>()V
@@ -266,6 +295,12 @@
 
     .line 84
     :pswitch_3
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_3"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     new-instance v0, Lcom/kingroot/kinguser/aun;
 
     invoke-direct {v0}, Lcom/kingroot/kinguser/aun;-><init>()V
@@ -294,6 +329,12 @@
 
     .line 92
     :pswitch_4
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_4"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     invoke-static {}, Lcom/kingroot/kinguser/atp;->sQ()Lcom/kingroot/kinguser/atp;
 
     move-result-object v0
@@ -482,6 +523,12 @@
 
     .line 135
     :pswitch_5
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_5"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     invoke-static {}, Lcom/kingroot/kinguser/atp;->sQ()Lcom/kingroot/kinguser/atp;
 
     move-result-object v0
@@ -507,6 +554,12 @@
 
     .line 144
     :pswitch_6
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_6"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     invoke-static {}, Lcom/kingroot/kinguser/atp;->sQ()Lcom/kingroot/kinguser/atp;
 
     move-result-object v0
@@ -520,6 +573,12 @@
 
     .line 149
     :pswitch_7
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_7"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     new-instance v0, Lcom/kingroot/kinguser/aus;
 
     invoke-direct {v0}, Lcom/kingroot/kinguser/aus;-><init>()V
@@ -565,6 +624,12 @@
 
     .line 162
     :pswitch_8
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_8"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     new-instance v0, Lcom/kingroot/kinguser/auu;
 
     invoke-direct {v0}, Lcom/kingroot/kinguser/auu;-><init>()V
@@ -605,6 +670,12 @@
 
     .line 172
     :pswitch_9
+    #gl add
+
+    const-string v8, "auj.onPluginCall : pswitch_9"
+    invoke-static {v8}, Lvsnake/wubainian/utils/print/PrintHelper;->log_call(Ljava/lang/String;)V
+
+    #gl end
     new-instance v0, Lcom/kingroot/kinguser/aur;
 
     invoke-direct {v0}, Lcom/kingroot/kinguser/aur;-><init>()V

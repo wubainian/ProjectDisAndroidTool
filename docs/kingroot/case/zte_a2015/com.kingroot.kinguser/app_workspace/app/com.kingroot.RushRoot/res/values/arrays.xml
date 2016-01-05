@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kr4_root_tips">
+        <item>"Plz don't worry if your device reboot~"</item>
+        <item>Install KingRoot in firmware is better~</item>
+        <item>Warranty will not be void after unroot~</item>
+        <item>Root has ability to remove Sys. apps~</item>
+        <item>Root also can disable autostart apps~</item>
+        <item>KingRoot will make your device better~</item>
+    </string-array>
+</resources>
