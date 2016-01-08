@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="100170_2">-1|-1|ZTE/P894A02CU/msm8994:5.0.2/LRX22G/zte.20150924.124332:user/release-keys|Linux version 3.10.49-perf-ga5b53b6 (zte@scl_xa243_222) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #2 SMP PREEMPT Thu Sep 24 12:45:18 CST 2015|ZTE|ZTE A2015|21|1452067797247|-1|105003|0|0||1|000000000000000|867241022441200|permition deny!|1</string>
+    <string name="100170_1">-1|-1|ZTE/P894A02CU/msm8994:5.0.2/LRX22G/zte.20150924.124332:user/release-keys|Linux version 3.10.49-perf-ga5b53b6 (zte@scl_xa243_222) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #2 SMP PREEMPT Thu Sep 24 12:45:18 CST 2015|ZTE|ZTE A2015|21|1452067795283|-1|105003|0|0||1|000000000000000|867241022441200|permition deny!|1</string>
+    <int name="100170" value="2" />
+</map>

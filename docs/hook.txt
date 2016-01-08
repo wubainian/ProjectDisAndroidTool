@@ -3,3 +3,12 @@ move-result-object v0
 
 new-instance v0, Lvsnake/wubainian/utils/hook/DexClassLoaderHelper;
 invoke-direct {v0, v3, v6, v7, v8}, Lvsnake/wubainian/utils/hook/DexClassLoaderHelper;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/ClassLoader;)V
+
+new-instance v0, Lvsnake/wubainian/utils/hook/InputStreamHelper;
+invoke-direct {v0, v1}, Lvsnake/wubainian/utils/hook/InputStreamHelper;-><init>(Ljava/lang/String;Ljava/io/InputStream;)V
+
+new-instance v0, Lvsnake/wubainian/utils/hook/OutputStreamHelper;
+invoke-direct {v0, v1}, Lvsnake/wubainian/utils/hook/OutputStreamHelper;-><init>(Ljava/lang/String;Ljava/io/OutputStream;)V
+
+invoke-static {v0}, Lvsnake/wubainian/utils/hook/ProcessHelper;->getInstance(Ljava/lang/Process;)Ljava/lang/Process;
+move-result-object v0

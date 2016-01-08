@@ -1,0 +1,133 @@
+/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krmain  -k /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcfg.txt
+
+/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krmain
+-k /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcfg.txt
+
+1).过反调试：krmain1.so->krmain2.so
+	[et] M|E...
+	[et]
+	 KR_100170 WKL 1015 13986 10405
+
+	[et] [  72 <--] KRS|FP: ZTE/P894A02CU/msm8994:5.0.2/LRX22G/zte.20150924.124332:user/release-keys
+	[et] [ 155 <--] KRS|LV: Linux version 3.10.49-perf-ga5b53b6 (zte@scl_xa243_222) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #2 SMP PREEMPT Thu Sep 24 12:45:18 CST 2015
+	[et] [   3 <--] KRS|BRAND: ZTE
+	[et] [   9 <--] KRS|MODEL: ZTE A2015
+	[et] [   9 <--] KRS|NAME: P894A02CU
+	[et] [   7 <--] msm8994
+	[et] [   4 <--] qcom
+	[et] [   0 <--]
+	[et] [   0 <--]
+	[et] [   0 <--]
+	[et] [   0 <--]
+	[et] [   5 <--] KRS|SDK: 5.0.2
+	[et] [   9 <--] KRS|ABI: arm64-v8a
+	[et] [  29 <--] KRS|ABILIST: arm64-v8a,armeabi-v7a,armeabi
+	[et] [  11 <--] KRS|ZYGOTE: zygote64_32
+	[et] KRS|YEAR: 2015
+	[et] KRS|MONTH: 9
+	[et] KRS|DAY: 24
+	[et] KRS|TOTAL: 2893296 KB
+	[et] KRS|FREE: 77040 KB
+	[et] preloaded by: libsigchain.so:libNimsWrap.so
+	[et] tracer: 10405
+	krerrcode:-32092
+	[et] M|L...
+2).循环查找父进程名，看是否是"/sbin/adbd"：krmain2.so->krmain3.so
+	[et] M|E...                                                                                                                                                                                   
+	[et]                                                                                                                                                                                          
+	 KR_100170 WKL 1015 18471 10405                                                                                                                                                               
+																																																  
+	[et] [  72 <--] KRS|FP: ZTE/P894A02CU/msm8994:5.0.2/LRX22G/zte.20150924.124332:user/release-keys                                                                                              
+	[et] [ 155 <--] KRS|LV: Linux version 3.10.49-perf-ga5b53b6 (zte@scl_xa243_222) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #2 SMP PREEMPT Thu Sep 24 12:45:18 CST 2015           
+	[et] [   3 <--] KRS|BRAND: ZTE                                                                                                                                                                
+	[et] [   9 <--] KRS|MODEL: ZTE A2015                                                                                                                                                          
+	[et] [   9 <--] KRS|NAME: P894A02CU                                                                                                                                                           
+	[et] [   7 <--] msm8994                                                                                                                                                                       
+	[et] [   4 <--] qcom                                                                                                                                                                          
+	[et] [   0 <--]                                                                                                                                                                               
+	[et] [   0 <--]                                                                                                                                                                               
+	[et] [   0 <--]                                                                                                                                                                               
+	[et] [   0 <--]                                                                                                                                                                               
+	[et] [   5 <--] KRS|SDK: 5.0.2                                                                                                                                                                
+	[et] [   9 <--] KRS|ABI: arm64-v8a                                                                                                                                                            
+	[et] [  29 <--] KRS|ABILIST: arm64-v8a,armeabi-v7a,armeabi                                                                                                                                    
+	[et] [  11 <--] KRS|ZYGOTE: zygote64_32                                                                                                                                                       
+	[et] KRS|YEAR: 2015                                                                                                                                                                           
+	[et] KRS|MONTH: 9                                                                                                                                                                             
+	[et] KRS|DAY: 24                                                                                                                                                                              
+	[et] KRS|TOTAL: 2893296 KB                                                                                                                                                                    
+	[et] KRS|FREE: 93756 KB                                                                                                                                                                       
+	[et] preloaded by: libsigchain.so:libNimsWrap.so                                                                                                                                              
+	[et] isExec|isExec = 1, execLimit = 240                                                                                                                                                       
+																																																  
+	[et] unblock: 0                                                                                                                                                                               
+																																																  
+	[et] V---                                                                                                                                                                                     
+	[et] WW: v&e: -32092                                                                                                                                                                          
+																																																  
+	[et] ---- mwait ... 1 2000                                                                                                                                                                    
+																																																  
+	[et] RR: v&e: -32092                                                                                                                                                                          
+																																																  
+	krerrcode:-32092                                                                                                                                                                              
+	[et] M|L...      
+3).
+	[et] M|E...
+	[et]
+	 KR_100170 WKL 1015 20521 20397
+
+	[et] [  72 <--] KRS|FP: ZTE/P894A02CU/msm8994:5.0.2/LRX22G/zte.20150924.124332:user/release-keys
+	[et] [ 155 <--] KRS|LV: Linux version 3.10.49-perf-ga5b53b6 (zte@scl_xa243_222) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #2 SMP PREEMPT Thu Sep 24 12:45:18 CST 2015
+	[et] [   3 <--] KRS|BRAND: ZTE
+	[et] [   9 <--] KRS|MODEL: ZTE A2015
+	[et] [   9 <--] KRS|NAME: P894A02CU
+	[et] [   7 <--] msm8994
+	[et] [   4 <--] qcom
+	[et] [   0 <--]
+	[et] [   0 <--]
+	[et] [   0 <--]
+	[et] [   0 <--]
+	[et] [   5 <--] KRS|SDK: 5.0.2
+	[et] [   9 <--] KRS|ABI: arm64-v8a
+	[et] [  29 <--] KRS|ABILIST: arm64-v8a,armeabi-v7a,armeabi
+	[et] [  11 <--] KRS|ZYGOTE: zygote64_32
+	[et] KRS|YEAR: 2015
+	[et] KRS|MONTH: 9
+	[et] KRS|DAY: 24
+	[et] KRS|TOTAL: 2893296 KB
+	[et] KRS|FREE: 145092 KB
+	[et] preloaded by: libsigchain.so:libNimsWrap.so
+	[et] isExec|isExec = 1, execLimit = 240
+
+	[et] unblock: 0
+
+	[et] V+
+	[et] RT+
+	[et] ---- mwait ... 1 2000
+
+	[et] puid: 2000
+
+	[et] pkgName: com.android.shell
+
+	A O
+	C F
+	[et] J:0
+	[et] RT-
+	[et] VR1:0
+	[et] sv|pkg:
+
+	[et] VR2:0
+	[et] krv|exit 0
+
+	[et] ---- mwait ... 2 2000
+
+	[et] V-
+	[et] V---
+	[et] WW: v&e: -32092
+
+	[et] ---- mwait ... 3 2000
+
+	[et] RR: v&e: -32092
+
+	krerrcode:-32092
+	[et] M|L...

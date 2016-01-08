@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <int name="ROOT_PROGRESS" value="16" />
+    <int name="x_stype" value="1" />
+    <long name="CLICK_ROOT_NANOTIME" value="1452067805765" />
+    <string name="x_sdk_old_root_status"></string>
+    <long name="x_last_nano_time" value="85419726194445" />
+    <int name="need_continue_kr_on_enter" value="1" />
+    <int name="x_sdk_solution_count" value="1" />
+    <string name="x_exploit_errcodes">7053</string>
+    <int name="has_action_stats" value="1" />
+    <string name="x_sid">610</string>
+    <int name="x_sindex" value="0" />
+    <int name="x_exploit_ret" value="7053" />
+    <int name="PLUGIN_ENTER_ROOT_TYPE" value="0" />
+    <int name="x_sdk_su_mode" value="2" />
+    <string name="executing_sid_time">610	1451903302256</string>
+    <long name="x_sdk_start_nano_time" value="85419332127205" />
+    <long name="x_start_time" value="1452067812692" />
+    <long name="x_start_nano_time" value="85419726166684" />
+    <string name="session_id">1452067751028395</string>
+    <long name="REPORT_CHANNEL_TIME" value="1452067752315" />
+    <string name="solution_id_list">610</string>
+</map>

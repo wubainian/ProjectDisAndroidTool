@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <long name="LastSotLsTime" value="1452067789809" />
+    <long name="SAExpiredOneDay" value="1452067789117" />
+    <long name="LastPermitStaticsReportTime" value="1452067732115" />
+    <int name="KuRootingType" value="1" />
+    <boolean name="ShouldActiveKrPlugin" value="true" />
+    <long name="LatestPluginGOFID" value="1451293166064" />
+    <long name="kuUpdateNotifyTime" value="0" />
+    <boolean name="IsUpdateV3GuidAndProfile" value="true" />
+    <boolean name="NeedEnterGuideView" value="false" />
+    <int name="kuUpdateTryCount" value="0" />
+    <long name="ScreenOffActionExpired" value="1452067766097" />
+    <long name="RepackageCheckTime" value="1452067789159" />
+    <boolean name="hasReportUserAreaProperty" value="true" />
+    <int name="KuSilentUpdateCount" value="0" />
+    <boolean name="ShouldEnterKrPlugin" value="true" />
+    <boolean name="kuUpdateNotifyFlag" value="false" />
+    <int name="KuCurrentBuildNo" value="233" />
+    <long name="PullPOrderTime" value="1452067801687" />
+    <int name="kuInstallNotifyCount" value="0" />
+    <long name="KStatusReportTime" value="1452067731732" />
+    <long name="ExpiredEevenDays" value="1452067731999" />
+    <long name="LastCheckRootPowerTime" value="1451549389100" />
+    <int name="is_need_show_update_guide_view" value="233" />
+    <boolean name="IsKmInstalledWithKu" value="true" />
+    <boolean name="IsSurvivalMode" value="false" />
+    <int name="kmDownloadTryCount" value="0" />
+    <long name="LastStaticsReportTime" value="1452067732466" />
+    <string name="InstallRecoveryLocation">/system/bin/install-recovery.sh</string>
+    <int name="KStatusReportSuReplaceCount" value="20" />
+    <int name="ApkLastUpdateTime" value="233" />
+    <boolean name="anti_inject_protect_list_state" value="false" />
+    <int name="AutoReplacementFlag" value="1" />
+    <long name="lastWifiCheckDownloadApkTime" value="1452067731783" />
+    <boolean name="IsFirstReportDFGI" value="false" />
+    <long name="LastCheckRootEnvTime" value="1451894989116" />
+    <boolean name="kuIsNewVersion" value="false" />
+    <long name="UranusCheckTime" value="1452067799473" />
+</map>

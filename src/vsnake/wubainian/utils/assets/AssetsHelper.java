@@ -7,12 +7,15 @@ import java.io.InputStream;
 
 import android.content.Context;
 import android.content.res.AssetManager;
+import vsnake.wubainian.utils.print.PrintHelper;
 
 public class AssetsHelper {
 	public static void copyToFile(Context ctx, String assetName, String destFilePath){
 		copyToFile(ctx, assetName, new File(destFilePath));
 	}
 	public static void copyToFile(Context ctx, String assetName, File destFile){
+		PrintHelper.log("AssetsHelper.copyToFile", "from asset \"" + assetName + "\" to " + destFile.getAbsolutePath());
+		
 		File parent = destFile.getParentFile();
 		if(!parent.exists()){
 			parent.mkdirs();

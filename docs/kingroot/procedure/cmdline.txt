@@ -1,0 +1,1434 @@
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3064   164   ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krmain
+    7840=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krmain -k /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcfg.txt 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   156   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   7935  7933  0      0     ffffffff 00000000 Z krs_100170
+    7935=/system/bin/sh: cat: /proc/7935/cmdline: No such file or directory
+
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   160   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   7947  7933  31648  8420  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krv_pie
+    7947=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krv_pie /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcert.jar 
+u0_a159   7954  7947  712948 19104 ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krv_pie
+    7954=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krv_pie /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcert.jar 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   160   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   7947  7933  31648  8420  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krv_pie
+    7947=
+u0_a159   7954  7947  0      0     ffffffff 00000000 Z main
+    7954=/system/bin/sh: cat: /proc/7954/cmdline: No such file or directory
+
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   188   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8034  7933  3072   1556  ffffffff 00000000 S krs_100170
+    8034=
+u0_a159   8035  8034  420    252   ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/minitar
+    8035=/system/bin/sh: cat: /proc/8035/cmdline: No such file or directory
+
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8055  8054  3788   520   ffffffff 00000000 D /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8055  8054  4812   1340  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8055  8054  4812   1340  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8055  8054  4812   1352  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8055  8054  4812   1352  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8055  8054  4812   1352  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+u0_a159   8055  8054  4812   1352  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1400  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1400  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1400  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1400  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1400  ffffffff 00000000 R /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+root      8337  8278  976    836   ffffffff 00000000 D /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.68f7666/supolicy
+    8337=/system/bin/sh: cat: /proc/8337/cmdline: No such file or directory
+
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+root      8372  8278  976    836   ffffffff 00000000 D /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.68f7666/supolicy
+    8372=/system/bin/sh: cat: /proc/8372/cmdline: No such file or directory
+
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+root      8402  8278  976    836   ffffffff 00000000 D /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.68f7666/supolicy
+    8402=/system/bin/sh: cat: /proc/8402/cmdline: No such file or directory
+
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8055  8054  4812   1404  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8055=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3072   204   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3076   208   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3084   216   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7840  5475  3072   176   ffffffff 00000000 S krs_100170
+    7840=krs_100170
+u0_a159   7933  7840  3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170
+root      8761  1     4812   1228  ffffffff 00000000 S /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+    8761=/data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64 2 /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/data/com.kingroot.kinguser/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert 
+shell     15469 1     3072   160   00240be4 0002b1dc S krs_100170
+    15469=krs_100170
+shell     20620 1     3072   160   00240be4 0002b1dc S krs_100170
+    20620=krs_100170
+shell     4533  1     3072   164   00240be4 0002b1dc S krs_100170
+    4533=krs_100170
+u0_a159   7933  1     3100   232   ffffffff 00000000 S krs_100170
+    7933=krs_100170

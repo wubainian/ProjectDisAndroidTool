@@ -1,0 +1,1 @@
+{"pcRootInfo":{"canRoot":0,"useTime":0,"succUsers":1,"succRate":0,"subitUsers":2},"mobileRootInfo":{"canRoot":1,"useTime":0,"succUsers":10,"succRate":3,"subitUsers":8}}

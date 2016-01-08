@@ -1,0 +1,7 @@
+ver:00001
+c:/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcert.jar
+mydir:/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play
+rmode:2
+kddir:/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk
+apkdir:/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play
+kdcert:/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert
