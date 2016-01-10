@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="kr4_circle_diameter">237.0dip</dimen>
+    <dimen name="kr4_circle_out_loop_common_thickness">8.0px</dimen>
+    <dimen name="kr4_checkroot_inner_diameter">231.0dip</dimen>
+    <dimen name="kr4_title_margin_bottom">50.0dip</dimen>
+    <dimen name="kr4_brand_icon_w">160.0dip</dimen>
+    <dimen name="kr4_brand_icon_h">70.0dip</dimen>
+    <dimen name="kr4_icon_in_circle_w">108.0dip</dimen>
+    <dimen name="kr4_icon_in_circle_h">81.0dip</dimen>
+    <dimen name="kr4_rooting_circle_thickness">15.0dip</dimen>
+    <dimen name="kr4_title_text_size">18.0sp</dimen>
+    <dimen name="kr4_km_icon_size">47.0dip</dimen>
+    <dimen name="kr4_content_text">14.0sp</dimen>
+    <dimen name="kr4_common_line_space">10.0dip</dimen>
+    <dimen name="kr4_star_successrate_size">29.0dip</dimen>
+    <dimen name="kr4_circle_main_textsize">18.0sp</dimen>
+    <dimen name="kr4_circle_secondary_textsize">14.0sp</dimen>
+    <dimen name="kr4_big_circle_diameter">280.0dip</dimen>
+    <dimen name="kr4_qrcodebottom_paddingtop">26.0dip</dimen>
+    <dimen name="kr4_qrcodebottom_qrcodewidth">55.0dip</dimen>
+    <dimen name="kr4_qrcodebottom_name_margin">13.0sp</dimen>
+    <dimen name="kr4_big_circle_vice_wording">15.0sp</dimen>
+    <dimen name="kr4_bigcircle_major_wording">46.0sp</dimen>
+    <dimen name="kr4_ranking_item_main_text">18.0sp</dimen>
+    <dimen name="kr4_ranking_item_content_text">14.0sp</dimen>
+</resources>

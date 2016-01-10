@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/kr4_content_text" android:textColor="@color/kr4_black_text" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/mock_loc_hint" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="25.0dip">
+        <ImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/kr4_mockloc_img_bg" android:maxHeight="100.0dip" android:contentDescription="@string/kr4_null_" />
+        <ImageView android:layout_gravity="right|center" android:id="@id/tutor_img_ic" android:layout_width="17.0dip" android:layout_height="17.0dip" android:layout_marginTop="17.0dip" android:layout_marginRight="15.0dip" android:src="@drawable/kr4_mock_location_tutorial" android:contentDescription="@string/kr4_null_" />
+    </FrameLayout>
+</LinearLayout>

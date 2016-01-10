@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/uninstall_item_header_color" android:gravity="center_vertical" android:id="@id/list_title" android:background="@color/sub_title_bg" android:paddingLeft="16.0dip" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="26.0dip" android:text="@android:string/unknownName" android:singleLine="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

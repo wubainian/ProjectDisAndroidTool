@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:contentDescription="@string/attribute_content_description_header"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/list_item_two_lines_style">
+        <ImageView android:id="@id/item_icon" android:layout_marginRight="@dimen/common_padding" style="@style/list_item_icon_style" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_icon_margin_right" android:layout_weight="1.0">
+            <TextView android:id="@id/item_title" android:layout_width="fill_parent" style="@style/list_item_primary_title_style" />
+            <TextView android:id="@id/item_title_desc" android:layout_width="fill_parent" android:singleLine="false" style="@style/list_item_secondary_title_style" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/list_item_text_secondary_color" android:id="@id/item_describe" style="@style/list_item_primary_title_style" />
+        <ImageView android:id="@id/expand_icon" android:background="@drawable/arrow_down" android:layout_width="@dimen/root_mgr_list_item_down_arrow_width" android:layout_height="@dimen/root_mgr_list_item_down_arrow_height" android:layout_marginLeft="8.0dip" android:contentDescription="@string/attribute_content_description_image" />
+    </LinearLayout>
+    <View android:id="@id/item_line" android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+</LinearLayout>

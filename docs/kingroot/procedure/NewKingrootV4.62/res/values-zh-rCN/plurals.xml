@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="auto_start_enabled_event_count_string">
-        <item quantity="other">发现%1$d个自启行为</item>
-    </plurals>
-    <plurals name="auto_start_disabled_event_count_string">
-        <item quantity="other">已禁止%1$d个自启行为</item>
-    </plurals>
-</resources>

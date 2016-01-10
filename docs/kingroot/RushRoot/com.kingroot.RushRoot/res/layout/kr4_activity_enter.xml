@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="修复Root" android:onClick="fixRoot" />
+        <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="直接Root" android:onClick="startRoot" />
+        <Button android:id="@id/btnContinue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="重启后进入" android:onClick="afterReboot" />
+        <Button android:id="@id/btnReport" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="补报统计点" android:onClick="reportStats" />
+    </LinearLayout>
+</ScrollView>

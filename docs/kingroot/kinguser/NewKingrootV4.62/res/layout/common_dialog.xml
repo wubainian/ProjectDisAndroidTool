@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/common_dialog_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/root_share_close" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="@dimen/root_share_dialog_close_top" android:layout_marginRight="@dimen/root_share_dialog_close_right" android:src="@drawable/selector_root_share_dialog_close_btn" android:scaleType="centerInside" android:layout_alignParentRight="true" android:contentDescription="@string/image" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/root_share_title_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/root_share_dialog_tile_icon_margin" android:layout_marginTop="@dimen/root_share_dialog_tile_icon_margin" android:layout_marginBottom="@dimen/root_share_dialog_tile_icon_marginBottom">
+            <ImageView android:layout_gravity="center_vertical" android:background="@drawable/root_share_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/root_share_dialog_tile_icon_marginRight" android:contentDescription="@string/image" />
+            <TextView android:textSize="@dimen/text_title_size" android:textColor="@color/root_share_text" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/root_share_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/root_share_title" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/root_share_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/root_share_dialog_tile_icon_margin" android:layout_below="@id/root_share_title_layout">
+            <TextView android:textSize="@dimen/text_primary_size" android:textColor="@color/root_share_text" android:gravity="center_vertical" android:id="@id/root_share_phone_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/phone_name_unknown" />
+            <TextView android:textSize="@dimen/text_primary_size" android:textColor="@color/root_share_text" android:gravity="center_vertical" android:id="@id/root_share_system_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_share_dialog_text_gap" android:text="@string/system_version_unknown" />
+        </LinearLayout>
+        <View android:background="@color/dialog_bottom_line_km" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/root_share_dialog_view_marginTop" android:layout_below="@id/root_share_description" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/root_share_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/root_share_dialog_tile_icon_margin" android:layout_marginTop="@dimen/root_share_dialog_view_marginBottom" android:layout_marginRight="@dimen/root_share_dialog_tile_icon_margin" android:layout_marginBottom="@dimen/root_share_dialog_view_marginBottom">
+        <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/root_share_text" android:gravity="center_vertical" android:id="@id/root_share_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/root_share_dialog_content" />
+        <RelativeLayout android:orientation="horizontal" android:id="@id/root_share_icon_list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_share_dialog_bottom_top" android:layout_below="@id/root_share_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/qq_share_icon" android:background="@drawable/root_share_qq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image" />
+                <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/root_share_text" android:id="@id/root_share_qq_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_share_dialog_text_top" android:text="@string/root_share_qq" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/wechat_share_icon" android:background="@drawable/root_share_wechat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image" />
+                <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/root_share_text" android:gravity="center_vertical" android:id="@id/root_share_wx_friend_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_share_dialog_text_top" android:text="@string/root_share_wx" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                <ImageView android:layout_gravity="center_horizontal" android:id="@id/timeline_share_icon" android:background="@drawable/root_share_tiemline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/image" />
+                <TextView android:textSize="@dimen/text_secondary_size" android:textColor="@color/root_share_text" android:gravity="center_vertical" android:id="@id/root_share_wx_showline_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/root_share_dialog_text_top" android:text="@string/root_share_wx_timeline" />
+            </LinearLayout>
+        </RelativeLayout>>
+</RelativeLayout>
+</LinearLayout>

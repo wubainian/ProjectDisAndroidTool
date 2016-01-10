@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/question" android:background="@drawable/selector_list_item_bg" android:paddingLeft="@dimen/list_item_padding_left" android:paddingTop="@dimen/list_item_padding_top" android:paddingRight="@dimen/list_item_padding_left" android:paddingBottom="@dimen/list_item_padding_bottom" android:layout_width="fill_parent" android:minHeight="@dimen/list_item_single_line_min_height" style="@style/text_primary_style" />
+    <LinearLayout android:orientation="vertical" android:id="@id/expand_panel" android:background="@color/root_mgr_list_item_external_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+        <TextView android:textColor="@color/grey_4" android:gravity="center_vertical" android:id="@id/answer" android:paddingLeft="@dimen/list_item_padding_left" android:paddingTop="@dimen/list_item_padding_top" android:paddingRight="@dimen/list_item_padding_left" android:paddingBottom="@dimen/list_item_padding_bottom" android:layout_width="fill_parent" android:minHeight="@dimen/list_item_single_line_min_height" android:lineSpacingExtra="6.0dip" style="@style/text_primary_style" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/whole_container" android:background="@color/kr4_main_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/title_box" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_vertical" android:background="@drawable/kr4_title_icon_black" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="20.0dip" android:layout_marginTop="1.5dip" />
+        <TextView android:textSize="@dimen/kr4_title_text_size" android:textColor="@color/kr4_black_text" android:id="@id/title_text" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_title" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/circle" android:background="@drawable/kr4_circle_outer_loop_success_green" android:layout_width="@dimen/kr4_circle_diameter" android:layout_height="@dimen/kr4_circle_diameter" android:layout_marginTop="@dimen/kr4_title_margin_bottom" android:layout_below="@id/title_box" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/success_tick" android:layout_width="@dimen/kr4_icon_in_circle_w" android:layout_height="@dimen/kr4_icon_in_circle_h" android:src="@drawable/kr4_success_tick_clip" android:scaleType="fitXY" android:contentDescription="@string/kr4_null_" />
+        <TextView android:textSize="@dimen/kr4_circle_main_textsize" android:textColor="@color/kr4_success_green" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/kr4_get_root_success" />
+        <TextView android:textSize="@dimen/kr4_circle_secondary_textsize" android:textColor="@color/kr4_black_text_secondary" android:id="@id/phone_model" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+    </LinearLayout>
+</RelativeLayout>

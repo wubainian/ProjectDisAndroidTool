@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/container" android:background="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_bar" />
+    <RelativeLayout android:id="@id/title_bar" android:background="@color/transparent" style="@style/title_bar_style">
+        <LinearLayout android:id="@id/ln" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toLeftOf="@id/right_btn">
+            <RelativeLayout android:id="@id/left_button" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                <ImageView android:id="@id/left_iv" android:background="@drawable/title_button_selector" android:paddingLeft="@dimen/title_bar_back_paddingLeft" android:paddingRight="@dimen/title_bar_back_paddingRight" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ic_common_back_km" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/image" />
+                <TextView android:textSize="@dimen/text_title_size" android:textColor="@color/text_title_color" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/left_title" android:paddingRight="@dimen/title_bar_back_paddingRight" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="72.0dip" android:text="@android:string/unknownName" android:singleLine="true" android:layout_alignWithParentIfMissing="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/template_bar_title_text_size" android:textColor="@android:color/white" android:gravity="center" android:id="@id/center_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/template_bar_center_btn_margin_left" android:layout_centerInParent="true" />
+        <LinearLayout android:gravity="center_vertical" android:id="@id/right_btn2" android:background="@drawable/selector_button_template_bar" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toLeftOf="@id/right_btn">
+            <com.kingroot.common.utils.ui.ImageViewDot android:id="@id/right_iv2" android:visibility="gone" android:layout_width="@dimen/template_bar_right_icon_width_and_height" android:layout_height="@dimen/template_bar_right_icon_width_and_height" android:src="@drawable/icon_log" android:contentDescription="@string/attribute_content_description_image" />
+            <TextView android:textSize="@dimen/template_bar_right_text_size" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/right_tv2" android:background="@drawable/selector_rounded_btn_white_stroke" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/unknownName" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@id/right_btn" android:background="@drawable/selector_button_template_bar" android:paddingLeft="@dimen/common_padding" android:paddingRight="@dimen/common_padding" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_alignParentRight="true">
+            <com.kingroot.common.utils.ui.ImageViewDot android:id="@id/right_iv" android:layout_width="@dimen/template_bar_right_icon_width_and_height" android:layout_height="@dimen/template_bar_right_icon_width_and_height" android:src="@drawable/icon_log" android:contentDescription="@string/attribute_content_description_image" />
+            <TextView android:textSize="@dimen/template_bar_right_text_size" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/right_tv" android:background="@drawable/selector_rounded_btn_white_stroke" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@android:string/unknownName" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

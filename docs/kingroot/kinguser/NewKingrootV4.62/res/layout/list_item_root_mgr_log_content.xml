@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/grey_9" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="26.099976dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_secondary_size" android:gravity="right" android:id="@id/item_title" android:paddingLeft="30.0dip" android:layout_marginRight="150.0dip" android:minWidth="50.0dip" android:layout_weight="1.0" style="@style/list_item_extends_title_style" />
+    <TextView android:textSize="@dimen/text_secondary_size" android:id="@id/item_describe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="35.0dip" android:text="@string/root_authorization_dialog_btn_allow" style="@style/list_item_extends_title_style" />
+</LinearLayout>

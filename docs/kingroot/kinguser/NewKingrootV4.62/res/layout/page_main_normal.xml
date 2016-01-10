@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/general_light_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/top_panel" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.kingroot.kinguser.view.InkView android:id="@id/top_ink_view_layer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.kingcore.uilib.CircleWithButton android:id="@id/main_view_circle" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="220.0dip" android:layout_height="220.0dip" android:layout_centerInParent="true" CircleWithButton:angle="75.0px" CircleWithButton:button_text="Unknow"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:CircleWithButton="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/tool_box_panel" android:background="@color/general_light_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="20.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/block_0" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0">
+            <include android:id="@id/tool_0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/view_king_tool_item" />
+            <View android:background="@color/main_page_divider" android:layout_width="@dimen/common_divider_width" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" />
+            <include android:id="@id/tool_1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/view_king_tool_item" />
+        </LinearLayout>
+        <View android:background="@color/main_page_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/block_1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginBottom="10.0dip" android:layout_weight="1.0">
+            <include android:id="@id/tool_2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/view_king_tool_item" />
+            <View android:background="@color/main_page_divider" android:layout_width="@dimen/common_divider_width" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" />
+            <include android:id="@id/tool_3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/view_king_tool_item" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

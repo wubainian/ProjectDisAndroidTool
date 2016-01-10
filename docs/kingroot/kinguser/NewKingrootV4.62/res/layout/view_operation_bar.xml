@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/operation_bar" android:background="@color/general_light_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="54.5dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/common_divider" android:layout_width="fill_parent" android:layout_height="@dimen/common_divider_width" />
+    <Button android:textSize="17.0sp" android:textColor="@android:color/white" android:id="@id/operation_first_btn" android:background="@drawable/selector_common_button_blue" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginLeft="@dimen/operation_bar_padding_left_right" android:layout_marginTop="@dimen/operation_bar_padding_top" android:layout_marginRight="@dimen/operation_bar_padding_left_right" android:layout_marginBottom="@dimen/operation_bar_padding_bottom" />
+</LinearLayout>

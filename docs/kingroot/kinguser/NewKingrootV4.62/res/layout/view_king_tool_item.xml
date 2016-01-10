@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:padding="5.0dip" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/tool_cover" android:layout_width="@dimen/main_page_tool_icon_size" android:layout_height="@dimen/main_page_tool_icon_size" android:scaleType="fitCenter" android:contentDescription="@string/attribute_content_description_image" />
+    <TextView android:textSize="@dimen/main_page_tool_label_size" android:textColor="@color/text_primary_color" android:gravity="center" android:id="@id/tool_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/main_page_tool_text_image_margin" />
+</LinearLayout>

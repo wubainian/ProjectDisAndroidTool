@@ -1,1 +1,0 @@
-keytool -printcert -file $path #查看指纹证书 

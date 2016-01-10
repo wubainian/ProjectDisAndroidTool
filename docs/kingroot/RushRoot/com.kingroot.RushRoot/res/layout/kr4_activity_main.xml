@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:id="@id/whole_container" android:background="@color/kr4_main_white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/title_box" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_gravity="center_vertical" android:id="@id/title_icon" android:background="@drawable/kr4_title_icon_black" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="20.0dip" android:layout_marginTop="1.5dip" />
+        <TextView android:textSize="@dimen/kr4_title_text_size" android:textColor="@color/kr4_black_text" android:id="@id/title_text" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/kr4_title" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/main_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/title_box">
+        <RelativeLayout android:id="@id/circle_container" android:paddingTop="@dimen/kr4_title_margin_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:gravity="center_horizontal" android:id="@id/bottom_container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/circle_container" />
+    </RelativeLayout>
+</RelativeLayout>

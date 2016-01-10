@@ -1,6 +1,11 @@
 @echo off
 
-set source_dir=E:\environment\elipse_android_workspaces2\ProjectDisAndroidTool\docs\kingroot\case\zte_a2015\vsnake_dir
+:: company
+::set source_base=E:\environment\elipse_android_workspaces2\ProjectDisAndroidTool
+:: home
+set source_base=E:\work_dir\project
+
+set source_dir=%source_base%\docs\kingroot\case\zte_a2015\vsnake_dir
 set target_dir=/data/local/tmp/vsnake_dir
 
 adb shell rm -rf %target_dir%

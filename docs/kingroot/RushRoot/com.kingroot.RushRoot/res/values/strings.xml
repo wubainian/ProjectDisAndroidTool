@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KingRoot</string>
+    <string name="kr4_null_">null_</string>
+    <string name="kr4_title">KingRoot</string>
+    <string name="kr4_enable_network_hint">"Network error, unable to deploy root strategy
+Tap \"SET NOW\" to configure Internet"</string>
+    <string name="kr4_set_now">SET NOW</string>
+    <string name="kr4_checking_root">Verify Root Status…</string>
+    <string name="kr4_unrooted">Root access is unavailable</string>
+    <string name="kr4_need_adapting">We need do more works</string>
+    <string name="kr4_new_solution_can_try">Root strategy available, just try it</string>
+    <string name="kr4_start_root">START ROOT</string>
+    <string name="kr4_try_to_root">TRY TO ROOT</string>
+    <string name="kr4_commit">SUBMIT</string>
+    <string name="kr4_adapt_req_count_hint">have submitted research request</string>
+    <string name="kr4_pc_root_tutorial">Tutorial of KingRoot desktop version</string>
+    <string name="kr4_percentage_label">%</string>
+    <string name="kr4_root_got">Root successfully</string>
+    <string name="kr4_uninstall">"Remove
+apps"</string>
+    <string name="kr4_autostart">"Autostart
+manager"</string>
+    <string name="kr4_clean">"Purify
+system"</string>
+    <string name="kr4_km_percent_hint">90% users optimize their phone with KingMaster</string>
+    <string name="kr4_one_click_clean">PURIFY</string>
+    <string name="kr4_item">" apps"</string>
+    <string name="kr4_apps_consumpting">draining your battery</string>
+    <string name="kr4_cleaned_hint">Purify Finished</string>
+    <string name="kr4_mock_loc_hint">Please check \"Allow mock locations\" first</string>
+    <string name="kr4_developer_option">Developer options</string>
+    <string name="kr4_allow_mock_location">Allow mock locations</string>
+    <string name="kr4_pc_tutor_hint1">Tutorial of KingRoot desktop version</string>
+    <string name="kr4_pc_tutor_hint2">KingRoot(PC) has higher success rate</string>
+    <string name="kr4_pc_tutor_title">Please follow instructions below</string>
+    <string name="kr4_pc_tutor_sub_title1">&lt;html>1、To visit &lt;font color=#007FEA>www.kingroot.net&lt;/font>, download and install KingRoot desktop version&lt;/html></string>
+    <string name="kr4_pc_tutor_sub_title2">2、To launch KingRoot desktop version，get Root access step by step</string>
+    <string name="kr4_brand">Model：</string>
+    <string name="kr4_Android">Android</string>
+    <string name="kr4_preprare_jobs">Please do prepare work first</string>
+    <string name="kr4_root_failed">Root Failed</string>
+    <string name="kr4_suggest_pc">Please try desktop version</string>
+    <string name="kr4_no_solution">Root strategy unavailable</string>
+    <string name="kr4_phone_cant_root">Unable to Root</string>
+    <string name="kr4_not_adapted_yet">no strategy now</string>
+    <string name="kr4_root_failed_retry">Retry</string>
+    <string name="kr4_success_rating_phone">Success rate</string>
+    <string name="kr4_success_rating_pc">Success rate</string>
+    <string name="kr4_time_cost_average">Time cost (avg)</string>
+    <string name="kr4_success_count_totally">Get root</string>
+    <string name="kr4_minute">m</string>
+    <string name="kr4_second">s</string>
+    <string name="kr4_person">ppls</string>
+    <string name="kr4_root_tips_00">"Plz don't worry if your device reboot~"</string>
+    <string name="kr4_root_tips_01">Root has ability to remove Sys. apps~</string>
+    <string name="kr4_root_tips_02">Root also can disable autostart apps~</string>
+    <string name="kr4_root_tips_03">Please try KingRoot to manage root ~ </string>
+    <string name="kr4_adapt_req_received">Request accepted, research is accelerating now</string>
+    <string name="kr4_get_root_success">Root successfully</string>
+    <string name="kr4_rooting">"Rooting…
+"</string>
+    <string name="kr4_get_root_suc">"Root successfully
+"</string>
+    <string name="kr4_check_env_after_root">"Checking phone status after
+get root access…"</string>
+    <string name="kr4_install_km_failed_retry_pls">Enable failed, please try again！</string>
+    <string name="kr4_receive" />
+    <string name="kr4_times_request">" request received"</string>
+    <string name="kr4_we_will_try_to_adapte">Research is accelerating for you</string>
+    <string name="kr4_num_00">00</string>
+    <string name="kr4_network_unavailable">Network error</string>
+    <string name="kr4_cant_obtain_solutions_from_remote">Unable to get root strategy from cloud</string>
+    <string name="update_dialog_title">Reminder</string>
+    <string name="update_dialog_ok">Update now</string>
+    <string name="update_dialog_cancel">Cancel</string>
+    <string name="kr4_check_ranking">Check request queue</string>
+    <string name="kr4_root_again">Root again</string>
+    <string name="kr4_subscribe_wx_account">Subscribe Wechat Offical Account, Know Progress About Root Research：</string>
+    <string name="kr4_wx_account_name">KingRoot Team</string>
+    <string name="kr4_follow">Subscribe</string>
+    <string name="kr4_submit_adapt_request_hint">We will research model have the most requests priority</string>
+    <string name="kr4_req_adapt">Request Research</string>
+    <string name="kr4_follow_wxaccount">Subscribe Wechat Offical Account</string>
+    <string name="kr4_cancel">Cancel</string>
+    <string name="kr4_save_to_storage">Save to Phone</string>
+    <string name="kr4_save_qrcode_tips">You can scan QR Code in gallery through click button at top right of wechat</string>
+    <string name="kr4_qrcode_saved_tips_format">QR Code saved to %1$s</string>
+    <string name="kr4_qrcode_save_failed_tips">QR Code saved failed</string>
+    <string name="kr4_qrcode_file_name">KingRoot_Wechat_Offical_Account</string>
+    <string name="kr4_firstcommit_before1k">Research request have be sent</string>
+    <string name="kr4_firstcommit_after1k">Research requests is not enough, please wait</string>
+    <string name="kr4_remaining_day_format">%1$d day left</string>
+    <string name="kr4_play_dayandnight">Researching</string>
+    <string name="kr4_phone_solution_coming">Strategy will be deployed from cloud, please look forward</string>
+    <string name="kr4_pc_solution_comming">Strategy will be deployed at PC, please look forward</string>
+    <string name="kr4_dnn_wording0">Strategy is building, please be patient</string>
+    <string name="kr4_dnn_wording1">Strategy is verifying, thanks for patient</string>
+    <string name="kr4_dnn_wording2">Strategy is coming soon, please look forward</string>
+    <string name="kr4_some_models_adapted_format">This model have been supported, Android %1$s will be supported later</string>
+    <string name="kr4_n_adapt_requests_more">%1$d new persons submit requests</string>
+    <string name="kr4_nth_faraway">In research queue, only %1$d models before yours</string>
+    <string name="kr4_nth_faraway_append">，only %1$d models before yours</string>
+    <string name="kr4_more_and_more_adapt_request">%1$d new persons submit requests</string>
+    <string name="kr4_wait_and_see_omg">Research requests is not enough, please wait</string>
+    <string name="kr4_my_model">My models：</string>
+    <string name="kr4_adapted_wishes">Research request queue</string>
+    <string name="kr4_ranking_position">Position %1$d</string>
+    <string name="kr4_ranking_adapted_person">%1$d persons</string>
+    <string name="kr4_my_rank_adapted_and_position">%1$d persons %2$s position %3$d</string>
+    <string name="kr4_ranking_queuing">Queuing</string>
+    <string name="kr4_ranking_adapting">Researching</string>
+    <string name="kr4_ranking_enter_adapted_list">Yours is TOP 200 model of request queue now</string>
+    <string name="kr4_ranking_no_enter_adapted_list">Only %1$d models between yours and TOP200</string>
+    <string name="kr4_ranking_five_more">5000 models after yours</string>
+    <string name="kr4_ranking_three_more">3000 models after yours</string>
+    <string name="kr4_click_to_focus_wechat">Click to subscribe wechat offical account</string>
+    <string name="kr4_get_lastest_adapted_info">Get the latest research news</string>
+    <string name="kr4_plus_one">+1</string>
+</resources>

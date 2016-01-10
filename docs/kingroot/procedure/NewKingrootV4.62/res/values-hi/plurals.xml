@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="auto_start_enabled_event_count_string">
-        <item quantity="other">%1$d स्वत: आरंभ व्यवहार पाए गए</item>
-    </plurals>
-    <plurals name="auto_start_disabled_event_count_string">
-        <item quantity="other">%1$d स्वत: प्रारंभ व्यवहार (व्यवहारों) को अवरूद्ध किया गया</item>
-    </plurals>
-</resources>

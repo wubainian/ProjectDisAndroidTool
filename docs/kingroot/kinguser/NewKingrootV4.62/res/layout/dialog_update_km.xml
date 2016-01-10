@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/shape_dialog_update_km_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dialog_bound_margin" android:minWidth="@dimen/dialog_min_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/request_dialog_padding" android:paddingRight="@dimen/request_dialog_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/request_dialog_title_min_height">
+        <ImageView android:layout_width="240.0dip" android:layout_height="240.0dip" android:src="@drawable/icon_update_km" android:scaleType="fitCenter" android:contentDescription="@string/attribute_content_description_image" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/dialog_km_desc_text" android:id="@id/km_content_tips1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_dialog_content_tips1" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/dialog_km_desc_text" android:id="@id/km_content_tips2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/km_dialog_content_tips2" />
+    </LinearLayout>
+    <RelativeLayout android:gravity="bottom" android:id="@id/btn_layout" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginLeft="25.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="25.0dip" android:layout_marginBottom="20.0dip">
+        <com.kingcore.uilib.TextProgressBar android:id="@id/progressbar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:progress="0" android:progressDrawable="@drawable/layer_list_update_progress_bar" style="?android:attr/progressBarStyleHorizontal" />
+        <Button android:textSize="@dimen/dialog_btn_text_size" android:textColor="@color/text_title_color" android:id="@id/button_update" android:background="@drawable/selector_common_button_blue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/km_try_it" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/kr4_circle_diameter" android:layout_height="@dimen/kr4_circle_diameter"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/kr4_checking_base_loop" android:layout_width="@dimen/kr4_circle_diameter" android:layout_height="@dimen/kr4_circle_diameter" android:layout_centerInParent="true" />
+    <com.kingroot.RushRoot.views.components.CheckingProgressBar android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@id/brand_logo" android:layout_width="@dimen/kr4_brand_icon_w" android:layout_height="@dimen/kr4_brand_icon_h" android:contentDescription="@string/kr4_null_" />
+        <TextView android:textSize="@dimen/kr4_content_text" android:textColor="@color/kr4_black_text" android:id="@id/brand_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" />
+        <TextView android:textSize="@dimen/kr4_content_text" android:textColor="@color/kr4_black_text" android:id="@id/android_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" />
+    </LinearLayout>
+</RelativeLayout>

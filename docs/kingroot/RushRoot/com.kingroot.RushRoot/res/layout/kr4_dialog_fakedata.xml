@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#99777777" android:padding="35.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ffd2dee5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="18.0sp" android:textColor="@color/kr4_black_text" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="设置提交适配数据" />
+        <View android:background="@color/kr4_gray_line" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/kr4_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="显示再次root：" />
+            <CheckBox android:id="@id/cb_rootagain" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_margin="0.0dip" android:checked="true" android:scaleX="0.7" android:scaleY="0.7" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/kr4_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="第一次提交适配：" />
+            <CheckBox android:id="@id/cb_firstcommit" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_margin="0.0dip" android:checked="false" android:scaleX="0.7" android:scaleY="0.7" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/kr4_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="许愿的人数：" />
+            <EditText android:textSize="12.0sp" android:textColor="@color/kr4_black_text" android:id="@id/et_commit_count" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/kr4_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="排名：" />
+            <EditText android:textSize="12.0sp" android:textColor="@color/kr4_black_text" android:id="@id/et_ranking" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/kr4_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="剩余天数：" />
+            <EditText android:textSize="12.0sp" android:textColor="@color/kr4_black_text" android:id="@id/et_remaining_day" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="可以为空" android:inputType="number" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="15.0dip">
+            <TextView android:textSize="11.0sp" android:textColor="@color/kr4_black_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="是否PC平台的天数：" />
+            <CheckBox android:id="@id/cb_ispc" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_margin="0.0dip" android:checked="false" android:scaleX="0.7" android:scaleY="0.7" />
+        </LinearLayout>
+        <Button android:id="@id/remove_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:text="清除Root" />
+        <View android:background="@color/kr4_gray_line" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="10.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16.0sp" android:textColor="@color/kr4_main_blue" android:gravity="center" android:id="@id/btn_left" android:background="@drawable/kr4_dialog_bottom_btn" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/kr4_cancel" android:layout_weight="1.0" />
+            <View android:background="@color/kr4_gray_line" android:layout_width="1.0px" android:layout_height="fill_parent" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/kr4_main_blue" android:gravity="center" android:id="@id/btn_right" android:background="@drawable/kr4_dialog_bottom_btn" android:paddingTop="12.0dip" android:paddingBottom="12.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="跳转" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

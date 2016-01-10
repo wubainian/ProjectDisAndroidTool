@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:id="@id/device_info" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ScrollView android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/test_btns" android:paddingLeft="25.0dip" android:paddingRight="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/clear_data" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="清除数据" />
+            <Button android:enabled="false" android:id="@id/kill_kd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="杀掉KD" />
+            <Button android:id="@id/show_check_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="检查Root界面" />
+            <Button android:id="@id/show_takeover_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="接管Root界面" />
+            <Button android:id="@id/show_root_success" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Root成功界面" />
+            <Button android:id="@id/show_mobile_can_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="手机可Root界面" />
+            <Button android:id="@id/show_mobile_can_try_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="手机可尝试Root" />
+            <Button android:id="@id/show_pc_can_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="PC可Root界面" />
+            <Button android:id="@id/show_cannot_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="不可Root" />
+            <Button android:id="@id/show_root_failed_try_pc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Root失败尝试PC" />
+            <Button android:id="@id/show_root_failed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Root失败" />
+            <Button android:id="@id/show_rooting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="正在Root" />
+            <Button android:id="@id/reroot_again" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="重新Root一次" />
+            <Button android:id="@id/show_set_netword" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="设置网络" />
+            <Button android:id="@id/show_set_mock_loc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="设置模拟位置" />
+            <Button android:id="@id/share_wx_moments" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="朋友圈分享" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

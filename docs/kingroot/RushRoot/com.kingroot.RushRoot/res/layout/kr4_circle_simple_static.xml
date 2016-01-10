@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingBottom="15.0dip" android:layout_width="@dimen/kr4_circle_diameter" android:layout_height="@dimen/kr4_circle_diameter" android:layout_centerInParent="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/main_icon" android:layout_width="@dimen/kr4_icon_in_circle_w" android:layout_height="@dimen/kr4_icon_in_circle_h" android:contentDescription="@string/kr4_null_" />
+    <TextView android:textSize="@dimen/kr4_circle_main_textsize" android:textColor="@color/kr4_black_text" android:id="@id/main_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+    <TextView android:textSize="@dimen/kr4_circle_secondary_textsize" android:textColor="@color/kr4_black_text_secondary" android:id="@id/secondary_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" />
+</LinearLayout>

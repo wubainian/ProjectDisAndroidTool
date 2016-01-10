@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="kr4_root_tips">
+        <item>在Root過程中手機自動重啟是正常現象哦~</item>
+        <item>註冊KingRoot為系統組件可提升授權穩定性喔~</item>
+        <item>若要保修手機記得先徹底清除Root權限哦~</item>
+        <item>獲取Root權限後即可清理手機預裝軟件啦~</item>
+        <item>關閉手機自啟軟件也需要手機Root權限喲~</item>
+        <item>Root成功後可用“KingRoot”全面優化手機喔~</item>
+    </string-array>
+</resources>
