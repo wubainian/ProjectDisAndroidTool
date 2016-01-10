@@ -15,3 +15,9 @@ adb push krmain %target_dir%/app_workspace/data/com.kingroot.RushRoot/krsdk/play
 adb shell chmod 777 %target_dir%/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krmain
 
 adb push krcfg.txt %target_dir%/app_workspace/data/com.kingroot.RushRoot/krsdk/play/krcfg.txt
+
+adb push flintlock %target_dir%/app_workspace/data/com.kingroot.RushRoot/krsdk/play/flintlock
+adb shell chmod 777 %target_dir%/app_workspace/data/com.kingroot.RushRoot/krsdk/play/flintlock
+
+adb push winkle64 %target_dir%/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
+adb shell chmod 777 %target_dir%/app_workspace/data/com.kingroot.RushRoot/krsdk/play/winkle64
