@@ -1,0 +1,220 @@
+KRS|STAT|BEGIN script
+ZTE
+ZTE A2015
+msm8994
+msm8994
+
+qcom
+
+
+
+ZTE/P894A02CU/msm8994:5.0.2/LRX22G/zte.20150924.124332:user/release-keys
+Linux version 3.10.49-perf-ga5b53b6 (zte@scl_xa243_222) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #2 SMP PREEMPT Thu Sep 24 12:45:18 CST 2015
+MemTotal:        2893296 kB
+MemFree:          151952 kB
+this file is [/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.697432e/postroot.sh]
+args count: 5
+arguments: /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.697432e 2 /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert
+SUPERUSER_NAME: Kinguser
+MY_FILES_DIR: /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.697432e
+ROOT_MODE: 2
+KD_FILES_DIR: /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk
+SUAPK_PATH: /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/Kinguser.apk
+KDCERT_PATH: /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/krsdk.cert
+ENABLE_SBIN_SU: 1
+MY_TOOLBOX: /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.697432e/toolbox
+API_LEVEL: 21
+IS_DO_SUPOLICY_PATCH: 1
+IS_CLEAR_FILES: 0
+IS_ENABLE_PM_CMD: 1
+IS_LAUNCH_KD: 1
+IS_LAUNCH_KUSUD: 1
+IS_INSTALL_KU: 0
+IS_DO_VERIFY_KSU: 1
+IS_DO_VERIFY_APK: 0
+IS_SEANDROID: 1
+IS_SELINUX_ENFORCING: 0
+SU_MODE: 00755
+identifying ...
+uid=0(root) gid=0(root) context=u:r:init:s0
+list mount points ...
+rootfs / rootfs ro,relatime 0 0
+tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,size=1429240k,nr_inodes=357310,mode=755 0 0
+devpts /dev/pts devpts rw,seclabel,relatime,mode=600 0 0
+none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+adb /dev/usb-ffs/adb functionfs rw,relatime 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,seclabel,relatime 0 0
+selinuxfs /sys/fs/selinux selinuxfs rw,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+none /sys/fs/cgroup tmpfs rw,seclabel,relatime,size=1429240k,nr_inodes=357310,mode=750,gid=1000 0 0
+none /acct cgroup rw,relatime,cpuacct 0 0
+tmpfs /mnt/asec tmpfs rw,seclabel,relatime,size=1429240k,nr_inodes=357310,mode=755,gid=1000 0 0
+tmpfs /mnt/obb tmpfs rw,seclabel,relatime,size=1429240k,nr_inodes=357310,mode=755,gid=1000 0 0
+/dev/block/bootdevice/by-name/system /system ext4 rw,seclabel,relatime,discard,data=ordered 0 0
+/dev/block/bootdevice/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+/dev/block/bootdevice/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+/dev/block/bootdevice/by-name/persist /persist ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+/dev/block/bootdevice/by-name/modem /firmware vfat ro,context=u:object_r:firmware_file:s0,relatime,uid=1000,gid=1000,fmask=0337,dmask=0227,codepage=437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
+/dev/block/bootdevice/by-name/bluetooth /bt_firmware vfat ro,context=u:object_r:bt_firmware_file:s0,relatime,uid=1002,gid=3002,fmask=0337,dmask=0227,codepage=437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
+/dev/block/bootdevice/by-name/logs /plog ext4 rw,seclabel,nosuid,nodev,noexec,relatime,discard,noauto_da_alloc,data=ordered 0 0
+/dev/fuse /mnt/shell/emulated fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+/dev/fuse /mnt/shell/emulated/0 fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+tmpfs /storage/emulated tmpfs rw,seclabel,nosuid,nodev,relatime,size=1429240k,nr_inodes=357310,mode=751,gid=1028 0 0
+/dev/fuse /storage/emulated/0 fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+/dev/fuse /storage/emulated/legacy fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+-rwxr-xr-x root     root        25820 2016-01-14 05:34 debuggerd
+-rwxr-xr-x root     root           77 2016-01-14 05:34 install-recovery.sh
+-rwxr-xr-x root     root          647 2016-01-14 05:34 install-recovery.sh.bin
+-rwxr-xr-x root     root              u:object_r:system_file:s0 debuggerd
+-rwxr-xr-x root     root              u:object_r:system_file:s0 install-recovery.sh
+-rwxr-xr-x root     root              u:object_r:system_file:s0 install-recovery.sh.bin
+patching policy ...
+Success
+Success
+Success
+Failure
+Failure
+Failure
+Success
+Success
+Success
+Success
+Success
+list /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.697432e ...
+-rwxr-xr-x system   system       1936 2015-12-18 05:56 apkchk.jar
+-rwxr-xr-x root     root        58692 2016-01-14 06:41 busybox
+-rwxr-xr-x system   system         65 2015-12-18 05:56 ddexe
+-rwxr-xr-x system   system       3299 2015-12-18 05:56 debuggerd
+-rwxr-xr-x system   system         42 2015-12-18 05:56 install-recovery.sh
+-rwxr-xr-x system   system     173776 2015-12-18 05:56 kd
+-rwxr-xr-x system   system     937904 2015-12-18 05:56 krdem
+-rwxr-xr-x system   system      40395 2015-12-18 05:56 postroot.sh
+-rwxr-xr-x system   system     159456 2015-12-18 05:56 su
+-rwxr-xr-x system   system     106092 2015-12-18 05:56 supolicy
+-rwxr-xr-x system   system     177316 2015-12-18 05:56 toolbox
+-rwxr-xr-x root     root       933494 2016-01-14 06:42 toy
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 apkchk.jar
+-rwxr-xr-x root     root              u:object_r:shell_data_file:s0 busybox
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 ddexe
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 debuggerd
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 install-recovery.sh
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 kd
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 krdem
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 postroot.sh
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 su
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 supolicy
+-rwxr-xr-x system   system            u:object_r:shell_data_file:s0 toolbox
+-rwxr-xr-x root     root              u:object_r:shell_data_file:s0 toy
+list kmem ...
+crw------- root     root       1,   2 1970-03-10 13:20 kmem
+crw------- root     root              u:object_r:kmem_device:s0 kmem
+crw------- root     root       1,   1 1970-03-10 13:20 mem
+crw------- root     root              u:object_r:kmem_device:s0 mem
+KRS|STAT|SUCC remount /data
+clear_permroot_blocks ...
+[et] [   3 <--] ZTE
+[et] [   9 <--] ZTE A2015
+[et] [   9 <--] arm64-v8a
+[krdem] v1031
+
+cat krdem ...
+KRS|STAT|SUCC cat krdem
+calling do_root() ...
+system dir path: /system
+KRS|STAT|SUCC remount /system
+KRS|STAT|SUCC backup /system/bin/sh
+check /system/bin/.krsh...
+-rwxr-xr-x root     root       289096 2016-01-14 07:00 .krsh
+-rwxr-xr-x root     root              u:object_r:system_file:s0 .krsh
+list mount points ...
+rootfs / rootfs ro,relatime 0 0
+tmpfs /dev tmpfs rw,seclabel,nosuid,relatime,size=1429240k,nr_inodes=357310,mode=755 0 0
+devpts /dev/pts devpts rw,seclabel,relatime,mode=600 0 0
+none /dev/cpuctl cgroup rw,relatime,cpu 0 0
+adb /dev/usb-ffs/adb functionfs rw,relatime 0 0
+proc /proc proc rw,relatime 0 0
+sysfs /sys sysfs rw,seclabel,relatime 0 0
+selinuxfs /sys/fs/selinux selinuxfs rw,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+none /sys/fs/cgroup tmpfs rw,seclabel,relatime,size=1429240k,nr_inodes=357310,mode=750,gid=1000 0 0
+none /acct cgroup rw,relatime,cpuacct 0 0
+tmpfs /mnt/asec tmpfs rw,seclabel,relatime,size=1429240k,nr_inodes=357310,mode=755,gid=1000 0 0
+tmpfs /mnt/obb tmpfs rw,seclabel,relatime,size=1429240k,nr_inodes=357310,mode=755,gid=1000 0 0
+/dev/block/bootdevice/by-name/system /system ext4 rw,seclabel,relatime,discard,data=ordered 0 0
+/dev/block/bootdevice/by-name/userdata /data ext4 rw,seclabel,nosuid,nodev,noatime,discard,noauto_da_alloc,data=ordered 0 0
+/dev/block/bootdevice/by-name/cache /cache ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+/dev/block/bootdevice/by-name/persist /persist ext4 rw,seclabel,nosuid,nodev,relatime,data=ordered 0 0
+/dev/block/bootdevice/by-name/modem /firmware vfat ro,context=u:object_r:firmware_file:s0,relatime,uid=1000,gid=1000,fmask=0337,dmask=0227,codepage=437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
+/dev/block/bootdevice/by-name/bluetooth /bt_firmware vfat ro,context=u:object_r:bt_firmware_file:s0,relatime,uid=1002,gid=3002,fmask=0337,dmask=0227,codepage=437,iocharset=iso8859-1,shortname=lower,errors=remount-ro 0 0
+/dev/block/bootdevice/by-name/logs /plog ext4 rw,seclabel,nosuid,nodev,noexec,relatime,discard,noauto_da_alloc,data=ordered 0 0
+/dev/fuse /mnt/shell/emulated fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+/dev/fuse /mnt/shell/emulated/0 fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+tmpfs /storage/emulated tmpfs rw,seclabel,nosuid,nodev,relatime,size=1429240k,nr_inodes=357310,mode=751,gid=1028 0 0
+/dev/fuse /storage/emulated/0 fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+/dev/fuse /storage/emulated/legacy fuse rw,nosuid,nodev,relatime,user_id=1023,group_id=1023,default_permissions,allow_other 0 0
+
+removing su ...
+verify su ...
+KRS|STAT|VALID SU
+cat su ...
+KRS|STAT|SUCC cat su
+cat supolicy ...
+KRS|STAT|SUCC cat supolicy
+cat ku.sud ...
+KRS|STAT|SUCC cat ku.sud
+cat debuggerd ...
+KRS|STAT|SUCC cat debuggerd
+list files ...
+/sbin/su: No such file or directory
+/sbin/su: No such file or directory
+-rwxr-xr-x root     root       159456 2016-01-14 07:00 su
+-rwxr-xr-x root     root              u:object_r:system_file:s0 su
+-rwxr-xr-x root     root       159456 2016-01-14 07:00 su
+-rwxr-xr-x root     root              u:object_r:system_file:s0 su
+-rwxr-xr-x root     root       159456 2016-01-14 07:00 .ku
+-rwxr-xr-x root     root              u:object_r:system_file:s0 .ku
+/system/usr/iku/isu: No such file or directory
+/system/usr/iku/isu: No such file or directory
+-rwxr-xr-x root     root       106092 2016-01-14 07:00 supolicy
+-rwxr-xr-x root     root              u:object_r:system_file:s0 supolicy
+-rwxr-xr-x root     root       159456 2016-01-14 07:00 ku.sud
+-rwxr-xr-x root     root              u:object_r:system_file:s0 ku.sud
+-rwxr-xr-x root     root          647 2015-12-31 09:55 install-recovery.sh
+-rwxr-xr-x root     root              u:object_r:system_file:s0 install-recovery.sh
+-rwxr-xr-x root     root           77 2015-02-02 10:53 install-recovery.sh
+-rwxr-xr-x root     root              u:object_r:system_file:s0 install-recovery.sh
+/system/etc/install_recovery.sh: No such file or directory
+/system/etc/install_recovery.sh: No such file or directory
+/system/etc/install-cm-recovery.sh: No such file or directory
+/system/etc/install-cm-recovery.sh: No such file or directory
+/system/bin/ddexe: No such file or directory
+/system/bin/ddexe: No such file or directory
+/system/bin/ddexe_real: No such file or directory
+/system/bin/ddexe_real: No such file or directory
+/system/app/Kinguser*.apk: No such file or directory
+/system/app/Kinguser*.apk: No such file or directory
+-rwxr-xr-x root     root      9302858 2016-01-14 06:40 Kinguser.apk
+-rwxr-xr-x root     root              u:object_r:system_file:s0 Kinguser.apk
+launching /data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/kd ...
+1.05:kr_daemon
+ping_kd_result: true
+KRS|STAT|KD:/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/kd
+KRS|STAT|SUCC ping kd
+ps kd processes ...
+u:r:init:s0                    root      6475  1     kr_worker/71:0
+u:r:init:s0                    root      11841 1     kr_worker/75:0
+launching /system/xbin/ku.sud ...
+[-] Unable to start daemon : daemon is running
+ping_sud_result: kinguser_su
+KRS|STAT|SUCC ping ku.sud
+ps ku.sud processes ...
+u:r:init:s0                    root      6488  1     /system/xbin/ku.sud
+u:r:init:s0                    root      6490  1     /system/xbin/ku.sud
+u:r:init:s0                    root      7238  1     /system/xbin/ku.sud
+u:r:init:s0                    root      7240  1     /system/xbin/ku.sud
+u:r:init:s0                    root      7615  1     /system/xbin/ku.sud
+u:r:init:s0                    root      10054 1     /system/xbin/ku.sud
+NO clean up files ...
+[/data/local/tmp/vsnake_dir/app_workspace/data/com.kingroot.RushRoot/krsdk/play/.697432e/postroot.sh] finished!
+KRS|STAT|END script
