@@ -1,0 +1,8 @@
+[arm64-v8a] Compile        : ioctl_print <= ioctl_print.c
+jni/ioctl_print.c:321:2: error: 'SIOCGETVIFCNT' undeclared here (not in a function)
+  SIOCGETVIFCNT,//   struct sioc_vif_req *   // I-O
+  ^
+jni/ioctl_print.c:322:2: error: 'SIOCGETSGCNT' undeclared here (not in a function)
+  SIOCGETSGCNT,//    struct sioc_sg_req *    // I-O
+  ^
+make.exe: *** [obj/local/arm64-v8a/objs/ioctl_print/ioctl_print.o] Error 1
