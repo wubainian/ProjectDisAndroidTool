@@ -2,12 +2,7 @@
 #define __M_STRUCTS_H
 
 #define	IFNAMSIZ	16
-struct	iw_priv_args{
-	__u32		cmd;		/* Number of the ioctl to issue */
-	__u16		set_args;	/* Type and number of args */
-	__u16		get_args;	/* Type and number of args */
-	char		name[IFNAMSIZ];	/* Name of the extension */
-};
+
 
 //<net/wireless.h>
 #define SIOCIWFIRSTPRIV	0x8BE0
@@ -18,7 +13,7 @@ struct	iw_priv_args{
 
 typedef unsigned char v_U8_t;
 
-//wlan_hdd_packet_filtering.h
+#include "wlan_hdd_packet_filtering.h"
 
 #endif
 
@@ -78,6 +73,20 @@ typedef unsigned char v_U8_t;
 	*/
 
 /*
+struct	iw_priv_args{
+	__u32		cmd;			// Number of the ioctl to issue 
+	__u16		set_args;		// Type and number of args 
+	__u16		get_args;		// Type and number of args 
+	char		name[IFNAMSIZ];	// Name of the extension 
+};
+typedef struct
+{
+    v_U8_t            filterAction;
+    v_U8_t            filterId;
+    v_U8_t            numParams;
+    struct PacketFilterParamsCfg paramsData [HDD_MAX_CMP_PER_PACKET_FILTER];
+}tPacketFilterCfg, *tpPacketFilterCfg;
+
 {
         WLAN_SET_PACKET_FILTER_PARAMS,
         IW_PRIV_TYPE_BYTE  | sizeof(tPacketFilterCfg),

